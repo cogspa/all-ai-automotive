@@ -1,0 +1,2868 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+public/
+  favicon.svg
+  icons.svg
+src/
+  components/
+    site/
+      DarkContext.jsx
+      Footer.jsx
+      HeroVideo.jsx
+      Pillars.jsx
+      Process.jsx
+      Stats.jsx
+      TopNav.jsx
+  pages/
+    AlternatorsPage.jsx
+    BoostersPage.jsx
+    BrakePadsRotorsPage.jsx
+    CalipersPage.jsx
+    MasterCylindersPage.jsx
+    StartersPage.jsx
+    WheelHubsPage.jsx
+  App.jsx
+  index.css
+  main.jsx
+.gitignore
+convertPages.cjs
+convertPages.js
+eslint.config.js
+fixDivs.cjs
+fixDivs.js
+index.html
+package.json
+README.md
+vite.config.js
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="public/favicon.svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="46" fill="none" viewBox="0 0 48 46"><path fill="#863bff" d="M25.946 44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.287c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 1.473 1.088.89 1.83L25.947 44.94z" style="fill:#863bff;fill:color(display-p3 .5252 .23 1);fill-opacity:1"/><mask id="a" width="48" height="46" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#000" d="M25.842 44.938c-.664.844-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.183c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.498 0-3.579-1.842-3.579H1.133c-.92 0-1.456-1.04-.92-1.787L9.91.473c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.578 1.842 3.578h11.377c.943 0 1.473 1.088.89 1.832L25.843 44.94z" style="fill:#000;fill-opacity:1"/></mask><g mask="url(#a)"><g filter="url(#b)"><ellipse cx="5.508" cy="14.704" fill="#ede6ff" rx="5.508" ry="14.704" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -4.47 31.516)"/></g><g filter="url(#c)"><ellipse cx="10.399" cy="29.851" fill="#ede6ff" rx="10.399" ry="29.851" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -39.328 7.883)"/></g><g filter="url(#d)"><ellipse cx="5.508" cy="30.487" fill="#7e14ff" rx="5.508" ry="30.487" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.814 -25.913 -14.639)scale(1 -1)"/></g><g filter="url(#e)"><ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.814 -32.644 -3.334)scale(1 -1)"/></g><g filter="url(#f)"><ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -34.34 30.47)"/></g><g filter="url(#g)"><ellipse cx="14.072" cy="22.078" fill="#ede6ff" rx="14.072" ry="22.078" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="rotate(93.35 24.506 48.493)scale(-1 1)"/></g><g filter="url(#h)"><ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/></g><g filter="url(#i)"><ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/></g><g filter="url(#j)"><ellipse cx=".387" cy="8.972" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(39.51 .387 8.972)"/></g><g filter="url(#k)"><ellipse cx="47.523" cy="-6.092" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 47.523 -6.092)"/></g><g filter="url(#l)"><ellipse cx="41.412" cy="6.333" fill="#47bfff" rx="5.971" ry="9.665" style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1" transform="rotate(37.892 41.412 6.333)"/></g><g filter="url(#m)"><ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 -1.88 38.332)"/></g><g filter="url(#n)"><ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 -1.88 38.332)"/></g><g filter="url(#o)"><ellipse cx="35.651" cy="29.907" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 35.651 29.907)"/></g><g filter="url(#p)"><ellipse cx="38.418" cy="32.4" fill="#47bfff" rx="5.971" ry="15.297" style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1" transform="rotate(37.892 38.418 32.4)"/></g></g><defs><filter id="b" width="60.045" height="41.654" x="-19.77" y="16.149" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="c" width="90.34" height="51.437" x="-54.613" y="-7.533" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="d" width="79.355" height="29.4" x="-49.64" y="2.03" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="e" width="79.579" height="29.4" x="-45.045" y="20.029" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="f" width="79.579" height="29.4" x="-43.513" y="21.178" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="g" width="74.749" height="58.852" x="15.756" y="-17.901" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="h" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="i" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="j" width="56.045" height="63.649" x="-27.636" y="-22.853" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="k" width="54.814" height="64.646" x="20.116" y="-38.415" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="l" width="33.541" height="35.313" x="24.641" y="-11.323" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="m" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="n" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="o" width="54.814" height="64.646" x="8.244" y="-2.416" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="p" width="39.409" height="43.623" x="18.713" y="10.588" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter></defs></svg>
+</file>
+
+<file path="public/icons.svg">
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="bluesky-icon" viewBox="0 0 16 17">
+    <g clip-path="url(#bluesky-clip)"><path fill="#08060d" d="M7.75 7.735c-.693-1.348-2.58-3.86-4.334-5.097-1.68-1.187-2.32-.981-2.74-.79C.188 2.065.1 2.812.1 3.251s.241 3.602.398 4.13c.52 1.744 2.367 2.333 4.07 2.145-2.495.37-4.71 1.278-1.805 4.512 3.196 3.309 4.38-.71 4.987-2.746.608 2.036 1.307 5.91 4.93 2.746 2.72-2.746.747-4.143-1.747-4.512 1.702.189 3.55-.4 4.07-2.145.156-.528.397-3.691.397-4.13s-.088-1.186-.575-1.406c-.42-.19-1.06-.395-2.741.79-1.755 1.24-3.64 3.752-4.334 5.099"/></g>
+    <defs><clipPath id="bluesky-clip"><path fill="#fff" d="M.1.85h15.3v15.3H.1z"/></clipPath></defs>
+  </symbol>
+  <symbol id="discord-icon" viewBox="0 0 20 19">
+    <path fill="#08060d" d="M16.224 3.768a14.5 14.5 0 0 0-3.67-1.153c-.158.286-.343.67-.47.976a13.5 13.5 0 0 0-4.067 0c-.128-.306-.317-.69-.476-.976A14.4 14.4 0 0 0 3.868 3.77C1.546 7.28.916 10.703 1.231 14.077a14.7 14.7 0 0 0 4.5 2.306q.545-.748.965-1.587a9.5 9.5 0 0 1-1.518-.74q.191-.14.372-.293c2.927 1.369 6.107 1.369 8.999 0q.183.152.372.294-.723.437-1.52.74.418.838.963 1.588a14.6 14.6 0 0 0 4.504-2.308c.37-3.911-.63-7.302-2.644-10.309m-9.13 8.234c-.878 0-1.599-.82-1.599-1.82 0-.998.705-1.82 1.6-1.82.894 0 1.614.82 1.599 1.82.001 1-.705 1.82-1.6 1.82m5.91 0c-.878 0-1.599-.82-1.599-1.82 0-.998.705-1.82 1.6-1.82.893 0 1.614.82 1.599 1.82 0 1-.706 1.82-1.6 1.82"/>
+  </symbol>
+  <symbol id="documentation-icon" viewBox="0 0 21 20">
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="m15.5 13.333 1.533 1.322c.645.555.967.833.967 1.178s-.322.623-.967 1.179L15.5 18.333m-3.333-5-1.534 1.322c-.644.555-.966.833-.966 1.178s.322.623.966 1.179l1.534 1.321"/>
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M17.167 10.836v-4.32c0-1.41 0-2.117-.224-2.68-.359-.906-1.118-1.621-2.08-1.96-.599-.21-1.349-.21-2.848-.21-2.623 0-3.935 0-4.983.369-1.684.591-3.013 1.842-3.641 3.428C3 6.449 3 7.684 3 10.154v2.122c0 2.558 0 3.838.706 4.726q.306.383.713.671c.76.536 1.79.64 3.581.66"/>
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M3 10a2.78 2.78 0 0 1 2.778-2.778c.555 0 1.209.097 1.748-.047.48-.129.854-.503.982-.982.145-.54.048-1.194.048-1.749a2.78 2.78 0 0 1 2.777-2.777"/>
+  </symbol>
+  <symbol id="github-icon" viewBox="0 0 19 19">
+    <path fill="#08060d" fill-rule="evenodd" d="M9.356 1.85C5.05 1.85 1.57 5.356 1.57 9.694a7.84 7.84 0 0 0 5.324 7.44c.387.079.528-.168.528-.376 0-.182-.013-.805-.013-1.454-2.165.467-2.616-.935-2.616-.935-.349-.91-.864-1.143-.864-1.143-.71-.48.051-.48.051-.48.787.051 1.2.805 1.2.805.695 1.194 1.817.857 2.268.649.064-.507.27-.857.49-1.052-1.728-.182-3.545-.857-3.545-3.87 0-.857.31-1.558.8-2.104-.078-.195-.349-1 .077-2.078 0 0 .657-.208 2.14.805a7.5 7.5 0 0 1 1.946-.26c.657 0 1.328.092 1.946.26 1.483-1.013 2.14-.805 2.14-.805.426 1.078.155 1.883.078 2.078.502.546.799 1.247.799 2.104 0 3.013-1.818 3.675-3.558 3.87.284.247.528.714.528 1.454 0 1.052-.012 1.896-.012 2.156 0 .208.142.455.528.377a7.84 7.84 0 0 0 5.324-7.441c.013-4.338-3.48-7.844-7.773-7.844" clip-rule="evenodd"/>
+  </symbol>
+  <symbol id="social-icon" viewBox="0 0 20 20">
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M12.5 6.667a4.167 4.167 0 1 0-8.334 0 4.167 4.167 0 0 0 8.334 0"/>
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M2.5 16.667a5.833 5.833 0 0 1 8.75-5.053m3.837.474.513 1.035c.07.144.257.282.414.309l.93.155c.596.1.736.536.307.965l-.723.73a.64.64 0 0 0-.152.531l.207.903c.164.715-.213.991-.84.618l-.872-.52a.63.63 0 0 0-.577 0l-.872.52c-.624.373-1.003.094-.84-.618l.207-.903a.64.64 0 0 0-.152-.532l-.723-.729c-.426-.43-.289-.864.306-.964l.93-.156a.64.64 0 0 0 .412-.31l.513-1.034c.28-.562.735-.562 1.012 0"/>
+  </symbol>
+  <symbol id="x-icon" viewBox="0 0 19 19">
+    <path fill="#08060d" fill-rule="evenodd" d="M1.893 1.98c.052.072 1.245 1.769 2.653 3.77l2.892 4.114c.183.261.333.48.333.486s-.068.089-.152.183l-.522.593-.765.867-3.597 4.087c-.375.426-.734.834-.798.905a1 1 0 0 0-.118.148c0 .01.236.017.664.017h.663l.729-.83c.4-.457.796-.906.879-.999a692 692 0 0 0 1.794-2.038c.034-.037.301-.34.594-.675l.551-.624.345-.392a7 7 0 0 1 .34-.374c.006 0 .93 1.306 2.052 2.903l2.084 2.965.045.063h2.275c1.87 0 2.273-.003 2.266-.021-.008-.02-1.098-1.572-3.894-5.547-2.013-2.862-2.28-3.246-2.273-3.266.008-.019.282-.332 2.085-2.38l2-2.274 1.567-1.782c.022-.028-.016-.03-.65-.03h-.674l-.3.342a871 871 0 0 1-1.782 2.025c-.067.075-.405.458-.75.852a100 100 0 0 1-.803.91c-.148.172-.299.344-.99 1.127-.304.343-.32.358-.345.327-.015-.019-.904-1.282-1.976-2.808L6.365 1.85H1.8zm1.782.91 8.078 11.294c.772 1.08 1.413 1.973 1.425 1.984.016.017.241.02 1.05.017l1.03-.004-2.694-3.766L7.796 5.75 5.722 2.852l-1.039-.004-1.039-.004z" clip-rule="evenodd"/>
+  </symbol>
+</svg>
+</file>
+
+<file path="src/components/site/DarkContext.jsx">
+import React from "react";
+
+const RAIL_THIS_WEEK = [
+  { k: "Diagnostic Guides", v: "Symptom-based · 35+ available" },
+  { k: "Installation Guides", v: "Step-by-step procedures" },
+  { k: "Safety Recalls", v: "Live NHTSA database" },
+];
+
+const RAIL_FOLLOW = [
+  { k: "LinkedIn", v: "@allaiautomotive" },
+  { k: "Twitter / X", v: "@allaiautomotive" },
+  { k: "YouTube", v: "/allaiautomotive" },
+];
+
+export default function DarkContext() {
+  return (
+    <section
+      className="relative glow-bg grain"
+      data-testid="dark-context"
+      id="product"
+    >
+      <div className="relative z-[2] grid grid-cols-12 gap-6 px-5 md:px-10 lg:px-14 pt-28 md:pt-40 pb-32 md:pb-48">
+        <div className="col-span-12 md:col-span-2 md:pt-2">
+          <span className="font-mono-cap text-white/50">
+            Used by
+          </span>
+        </div>
+
+        <div className="col-span-12 md:col-span-8">
+          <h2
+            className="font-display text-white"
+            style={{
+              fontSize: "clamp(44px, 7.4vw, 112px)",
+              lineHeight: 0.95,
+              letterSpacing: "-0.03em",
+            }}
+          >
+            Thousands of{" "}
+            <span className="italic-display" style={{ color: "#efe1d8" }}>
+              repair shops.
+            </span>
+          </h2>
+          <p className="mt-8 max-w-[520px] text-white/65 text-[15px] leading-relaxed font-normal">
+            Independent mechanics, dealerships, and DIYers trusting ALL AI AUTOMOTIVE across diagnostics, installations, and safety recalls. Quietly, daily.
+          </p>
+
+          <div className="mt-32 md:mt-44">
+            <span className="font-mono-cap text-white/50">The automotive moment</span>
+            <h3
+              className="mt-4 font-display text-white"
+              style={{
+                fontSize: "clamp(36px, 5.4vw, 80px)",
+                lineHeight: 1,
+                letterSpacing: "-0.025em",
+              }}
+            >
+              Built by mechanics for the shops that{" "}
+              <span className="italic-display" style={{ color: "#e5d2c6" }}>
+                actually fix
+              </span>{" "}
+              the cars.
+            </h3>
+            <p className="mt-7 max-w-[560px] text-white/65 text-[15px] leading-relaxed font-normal">
+              ALL AI AUTOMOTIVE started inside a small shop that loved the work and hated the fragmented data. Same team, two years later — building the knowledge base they couldn&rsquo;t find anywhere else.
+            </p>
+            <a
+              href="#search"
+              className="mt-7 inline-flex items-center gap-2 text-white/90 hover:text-white transition"
+            >
+              <span className="font-mono-cap">Start searching</span>
+              <span className="h-px w-12 bg-white/40" />
+            </a>
+          </div>
+        </div>
+
+        <aside
+          className="col-span-12 md:col-span-2 hidden md:flex flex-col gap-12 pt-2"
+        >
+          <RailGroup label="Available Now" items={RAIL_THIS_WEEK} />
+          <RailGroup label="Follow" items={RAIL_FOLLOW} />
+          <div>
+            <span className="font-mono-cap text-white/50">Contact</span>
+            <a
+              href="mailto:support@allaiautomotive.com"
+              className="mt-3 block text-[14px] text-white/85 hover:text-white"
+            >
+              support@allaiautomotive.com
+            </a>
+            <p className="mt-7 font-mono-cap text-white/40">
+              Est. 2024 — 2026
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  );
+}
+
+function RailGroup({ label, items }) {
+  return (
+    <div>
+      <span className="font-mono-cap text-white/50">{label}</span>
+      <ul className="mt-3 space-y-2">
+        {items.map((it) => (
+          <li
+            key={it.k}
+            className="flex flex-col"
+          >
+            <span className="text-[13.5px] text-white/85">{it.k}</span>
+            <span className="text-[12px] text-white/45">{it.v}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+</file>
+
+<file path="src/components/site/Footer.jsx">
+import React from "react";
+
+const COL = [
+  {
+    title: "Product",
+    links: [
+      ["Knowledge Hub", "#search"],
+      ["Quick Guides", "#guides"],
+      ["Recalls", "#recalls"],
+      ["TSBs", "#search"],
+    ],
+  },
+  {
+    title: "Shop",
+    links: [
+      ["About", "#about"],
+      ["Customers", "#customers"],
+      ["Pricing", "#pricing"],
+      ["Contact", "mailto:support@allaiautomotive.com"],
+    ],
+  },
+  {
+    title: "Follow",
+    links: [
+      ["LinkedIn", "https://linkedin.com"],
+      ["YouTube", "https://youtube.com"],
+      ["Twitter / X", "https://x.com"],
+      ["Instagram", "https://instagram.com"],
+    ],
+  },
+];
+
+export default function Footer() {
+  return (
+    <footer
+      className="relative grain"
+      style={{ background: "#070708" }}
+      data-testid="site-footer"
+    >
+      <div className="relative z-[2] grid grid-cols-12 gap-6 px-5 md:px-10 lg:px-14 py-20 md:py-24 border-t" style={{ borderColor: "rgba(255,255,255,0.08)"}}>
+        <div className="col-span-12 md:col-span-4">
+          <div
+            className="font-display text-white"
+            style={{
+              fontSize: "clamp(34px, 5vw, 72px)",
+              lineHeight: 0.9,
+              letterSpacing: "-0.04em",
+            }}
+          >
+            ALL AI AUTOMOTIVE
+          </div>
+          <p
+            className="mt-6 max-w-[320px] text-[14px] font-normal"
+            style={{ color: "rgba(255,255,255,0.55)" }}
+          >
+            The knowledge base for modern repair shops. Accurate, daily — New York · Detroit.
+          </p>
+        </div>
+
+        {COL.map((c) => (
+          <div key={c.title} className="col-span-6 md:col-span-2 mt-10 md:mt-2">
+            <span
+              className="font-mono-cap"
+              style={{ color: "rgba(255,255,255,0.55)" }}
+            >
+              {c.title}
+            </span>
+            <ul className="mt-4 space-y-2.5">
+              {c.links.map(([k, h]) => (
+                <li key={k}>
+                  <a
+                    href={h}
+                    className="text-[14px] hover:text-white"
+                    style={{ color: "rgba(255,255,255,0.78)" }}
+                  >
+                    {k}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+
+        <div className="col-span-12 mt-14 pt-6 flex flex-wrap items-center justify-between gap-4 border-t" style={{ borderColor: "rgba(255,255,255,0.08)" }}>
+          <span
+            className="font-mono-cap"
+            style={{ color: "rgba(255,255,255,0.45)" }}
+          >
+            © ALL AI AUTOMOTIVE — Est. 2024, &nbsp;build 2.0
+          </span>
+          <span
+            className="font-mono-cap"
+            style={{ color: "rgba(255,255,255,0.45)" }}
+          >
+            Automotive data · powered by AI
+          </span>
+          <a
+            href="#top"
+            className="font-mono-cap"
+            style={{ color: "rgba(255,255,255,0.7)" }}
+          >
+            Back to top ↑
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+}
+</file>
+
+<file path="src/components/site/HeroVideo.jsx">
+import React, { useEffect, useRef, useState, useCallback } from "react";
+import { ArrowDown } from "lucide-react";
+
+const VIDEO_SRC_MP4 = "/media/headspin.mp4";
+const VIDEO_SRC_WEBM = "/media/headspin.webm";
+
+const CUE_POINTS = [
+  {
+    time: 0.05,
+    eyebrow: "01 — Identify",
+    titleLead: "Find the fix ",
+    titleAccent: "before",
+    titleTail: " you touch the wrench.",
+    sub: "ALL AI AUTOMOTIVE is the operating layer for shops and DIYers that move fast without losing the craft. Symptoms, diagnostics, and repairs in one quiet surface.",
+  },
+  {
+    time: 1.2,
+    eyebrow: "02 — Search",
+    titleLead: "Every diagnostic lands ",
+    titleAccent: "shaped",
+    titleTail: ".",
+    sub: "Inputs, symptoms and TSBs enter as living documents. Nothing important hides in a forum thread again.",
+  },
+  {
+    time: 2.4,
+    eyebrow: "03 — Execute",
+    titleLead: "Repairs stop ",
+    titleAccent: "fragmenting",
+    titleTail: ".",
+    sub: "One canvas for torque specs, required tools, and time-stamped installation steps — wired to the repair, not a parallel inbox.",
+  },
+  {
+    time: 3.6,
+    eyebrow: "04 — Maintain",
+    titleLead: "Cadence finds ",
+    titleAccent: "itself",
+    titleTail: ".",
+    sub: "Maintenance runs underneath the shop, not on top of the mechanics. Fewer status meetings, more shipped work.",
+  },
+  {
+    time: 4.8,
+    eyebrow: "05 — Ship",
+    titleLead: "Make repairs that ",
+    titleAccent: "matter",
+    titleTail: ", on time.",
+    sub: "Thousands of mechanics already shipping their best quarters with ALL AI AUTOMOTIVE.",
+  },
+];
+
+const lerp = (a, b, t) => a + (b - a) * t;
+
+export default function HeroVideo() {
+  const sectionRef = useRef(null);
+  const videoRef = useRef(null);
+  const targetTimeRef = useRef(CUE_POINTS[0].time);
+  const rafRef = useRef(null);
+
+  const [stepIndex, setStepIndex] = useState(0);
+  const [progress, setProgress] = useState(0);
+  const [reducedMotion, setReducedMotion] = useState(false);
+  const [videoReady, setVideoReady] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+    setReducedMotion(mq.matches);
+    const update = (e) => setReducedMotion(e.matches);
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, []);
+
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+    v.muted = true;
+    let cancelled = false;
+
+    const prime = async () => {
+      try {
+        await v.play();
+        v.pause();
+        v.currentTime = CUE_POINTS[0].time;
+      } catch {
+        try { v.currentTime = CUE_POINTS[0].time; } catch {}
+      }
+      if (!cancelled) setVideoReady(true);
+    };
+
+    const onMeta = () => { if (!cancelled) prime(); };
+    const onError = () => { if (!cancelled) setVideoReady(false); };
+
+    if (v.readyState >= 1) { prime(); }
+    else {
+      v.addEventListener("loadedmetadata", onMeta, { once: true });
+      v.addEventListener("error", onError, { once: true });
+    }
+
+    return () => {
+      cancelled = true;
+      v.removeEventListener("loadedmetadata", onMeta);
+      v.removeEventListener("error", onError);
+    };
+  }, []);
+
+  const handleScroll = useCallback(() => {
+    const section = sectionRef.current;
+    if (!section) return;
+    const rect = section.getBoundingClientRect();
+    const total = rect.height - window.innerHeight;
+    const passed = Math.min(Math.max(-rect.top, 0), total);
+    const p = total > 0 ? passed / total : 0;
+    setProgress(p);
+
+    const idx = Math.min(
+      CUE_POINTS.length - 1,
+      Math.max(0, Math.round(p * (CUE_POINTS.length - 1)))
+    );
+    setStepIndex(idx);
+    targetTimeRef.current = CUE_POINTS[idx].time;
+  }, []);
+
+  useEffect(() => {
+    const tick = () => {
+      const v = videoRef.current;
+      if (v && videoReady) {
+        const target = targetTimeRef.current;
+        const cur = v.currentTime;
+        const diff = target - cur;
+        if (reducedMotion) {
+          if (Math.abs(diff) > 0.01) v.currentTime = target;
+        } else if (Math.abs(diff) > 0.004) {
+          v.currentTime = lerp(cur, target, 0.16);
+        } else if (Math.abs(diff) > 0) {
+          v.currentTime = target;
+        }
+      }
+      rafRef.current = requestAnimationFrame(tick);
+    };
+    rafRef.current = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(rafRef.current);
+  }, [reducedMotion, videoReady]);
+
+  useEffect(() => {
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("resize", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+    };
+  }, [handleScroll]);
+
+  const cue = CUE_POINTS[stepIndex];
+
+  return (
+    <section ref={sectionRef} id="top" className="hero-wrap">
+      <div className="hero-sticky">
+        <video ref={videoRef} className="hero-video" muted playsInline preload="auto" tabIndex={-1} aria-hidden="true">
+          <source src={VIDEO_SRC_WEBM} type="video/webm" />
+          <source src={VIDEO_SRC_MP4} type="video/mp4" />
+        </video>
+        <div className="hero-tint" />
+        <div className="hero-vignette" />
+
+        <div className="relative z-10 h-full w-full">
+          <div className="grid grid-cols-12 gap-6 px-5 md:px-10 lg:px-14 h-full pt-28 md:pt-32 pb-16">
+            <div className="col-span-12 md:col-span-7 lg:col-span-7 flex flex-col justify-end">
+              <div className="max-w-[640px]">
+                <div key={`eyebrow-${stepIndex}`} className="cue-state cue-active inline-flex items-center gap-3 mb-6">
+                  <span className="font-mono-cap text-white/75 px-2.5 py-1 rounded-full" style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.16)" }}>
+                    {cue.eyebrow}
+                  </span>
+                  <span className="font-mono-cap text-white/40">Automotive · scroll-led</span>
+                </div>
+
+                <h1 key={`title-${stepIndex}`} className="cue-state cue-active font-display text-white" style={{ fontSize: "clamp(40px, 6.5vw, 92px)", lineHeight: 0.96, letterSpacing: "-0.025em" }}>
+                  {cue.titleLead}
+                  <span className="italic-display" style={{ color: "#f4d8c8" }}>{cue.titleAccent}</span>
+                  {cue.titleTail}
+                </h1>
+
+                <p key={`sub-${stepIndex}`} className="cue-state cue-active mt-6 max-w-[480px] text-white/70" style={{ fontSize: "clamp(15px, 1.05vw, 17px)", lineHeight: 1.55, fontWeight: 400 }}>
+                  {cue.sub}
+                </p>
+
+                <div className="mt-10 flex items-center gap-2.5">
+                  {CUE_POINTS.map((_, i) => (
+                    <span key={i} className={`cue-dot ${i === stepIndex ? "is-active" : ""}`} />
+                  ))}
+                  <span className="ml-3 font-mono-cap text-white/40">
+                    {String(stepIndex + 1).padStart(2, "0")} / 0{CUE_POINTS.length}
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <aside className="col-span-12 md:col-span-5 lg:col-span-5 hidden md:flex justify-end">
+              <div className="self-end mb-2 w-full max-w-[340px]">
+                <div className="rounded-2xl p-5" style={{ background: "rgba(20, 16, 16, 0.55)", border: "1px solid rgba(255,255,255,0.10)", backdropFilter: "blur(18px)" }}>
+                  <div className="flex items-center justify-between">
+                    <span className="font-mono-cap text-white/55">Knowledge Hub</span>
+                    <span className="flex items-center gap-2 font-mono-cap text-white/85">
+                      <span className="h-1.5 w-1.5 rounded-full" style={{ background: "#ff8a4a", boxShadow: "0 0 12px #ff8a4a" }} />
+                      v2.0 live
+                    </span>
+                  </div>
+                  <div className="mt-4 space-y-3">
+                    {[
+                      ["Diagnostics", "Symptom-based repair guides"],
+                      ["Installations", "Step-by-step procedures"],
+                      ["Recalls", "Live NHTSA safety data"],
+                    ].map(([t, s], i) => (
+                      <div key={t} className="flex items-start gap-3">
+                        <span className="font-mono-cap text-white/35 mt-1">0{i + 1}</span>
+                        <div>
+                          <div className="text-[14px] text-white">{t}</div>
+                          <div className="text-[13px] text-white/55">{s}</div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+
+          <div className="absolute left-1/2 -translate-x-1/2 bottom-10 flex flex-col items-center gap-2 transition-opacity duration-500" style={{ opacity: progress < 0.04 ? 1 : 0 }}>
+            <span className="font-mono-cap text-white/55">Scroll · video-led</span>
+            <ArrowDown className="h-4 w-4 text-white/55 animate-bounce" />
+          </div>
+
+          <div className="hero-progress-track">
+            <div className="hero-progress-fill" style={{ transform: `scaleX(${progress})` }} />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+</file>
+
+<file path="src/components/site/Pillars.jsx">
+import React from "react";
+import { ArrowUpRight } from "lucide-react";
+
+const QUICK_GUIDES = [
+  {
+    n: "01",
+    t: "Alternators",
+    d: "Complete guide to diagnosing and replacing your alternator.",
+    href: "/alternators",
+    tags: ["Electrical", "Charging"],
+  },
+  {
+    n: "02",
+    t: "Starters",
+    d: "Step-by-step procedures for starter motor replacement.",
+    href: "/starters",
+    tags: ["Electrical", "Ignition"],
+  },
+  {
+    n: "03",
+    t: "Brake Calipers",
+    d: "Detailed instructions for brake caliper inspection and replacement.",
+    href: "/calipers",
+    tags: ["Brakes", "Hydraulics"],
+  },
+  {
+    n: "04",
+    t: "Master Cylinders",
+    d: "Master cylinder bleeding and installation procedures.",
+    href: "/master-cylinders",
+    tags: ["Brakes", "Hydraulics"],
+  },
+  {
+    n: "05",
+    t: "Brake Pads & Rotors",
+    d: "Comprehensive guide for replacing brake pads and rotors.",
+    href: "/brake-pads-rotors",
+    tags: ["Brakes", "Friction"],
+  },
+  {
+    n: "06",
+    t: "Brake Boosters",
+    d: "Diagnose and replace vacuum or hydraulic brake boosters.",
+    href: "/boosters",
+    tags: ["Brakes", "Vacuum"],
+  },
+  {
+    n: "07",
+    t: "Wheel Hubs",
+    d: "Wheel hub assembly and bearing replacement guides.",
+    href: "/wheel-hubs",
+    tags: ["Suspension", "Drivetrain"],
+  },
+];
+
+export default function Pillars() {
+  return (
+    <section
+      id="guides"
+      className="relative"
+      style={{ background: "var(--c-cream)", color: "var(--c-ink)" }}
+    >
+      <div className="grid grid-cols-12 gap-6 px-5 md:px-10 lg:px-14 pt-28 md:pt-40 pb-24">
+        <div className="col-span-12 md:col-span-2">
+          <span className="font-mono-cap" style={{ color: "rgba(10,10,10,0.55)" }}>
+            Quick Guides
+          </span>
+        </div>
+        <div className="col-span-12 md:col-span-9">
+          <h2
+            className="font-display"
+            style={{
+              fontSize: "clamp(40px, 6.4vw, 96px)",
+              lineHeight: 0.96,
+              letterSpacing: "-0.03em",
+              color: "var(--c-ink)",
+            }}
+          >
+            Direct access to the most <span className="italic-display">common repairs.</span>
+          </h2>
+          <p
+            className="mt-6 max-w-[640px] text-[15px] leading-relaxed font-normal"
+            style={{ color: "rgba(10,10,10,0.62)" }}
+          >
+            Seven quick guides for the most frequently replaced components. Detailed step-by-step instructions so you can focus on the fix.
+          </p>
+        </div>
+
+        <div className="col-span-12 mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          {QUICK_GUIDES.map((p, i) => (
+            <a
+              key={p.n}
+              href={p.href}
+              className="pillar-card rounded-3xl p-7 md:p-9 block transition-transform hover:-translate-y-1 hover:shadow-xl group"
+              style={{
+                background: i % 2 === 0 ? "var(--c-cream-2)" : "var(--c-blush)",
+                border: "1px solid rgba(10,10,10,0.07)",
+                textDecoration: 'none',
+                color: 'inherit'
+              }}
+            >
+              <div className="flex items-start justify-between">
+                <span
+                  className="font-mono-cap"
+                  style={{ color: "rgba(10,10,10,0.55)" }}
+                >
+                  {p.n}
+                </span>
+                <span
+                  className="font-mono-cap group-hover:text-[#0a0a0a] transition-colors"
+                  style={{ color: "rgba(10,10,10,0.4)" }}
+                >
+                  <ArrowUpRight className="h-4 w-4 inline-block" />
+                </span>
+              </div>
+              <h3
+                className="mt-10 font-display"
+                style={{
+                  fontSize: "clamp(26px, 2.7vw, 38px)",
+                  lineHeight: 1.05,
+                  letterSpacing: "-0.02em",
+                }}
+              >
+                {p.t}
+              </h3>
+              <p
+                className="mt-5 text-[14.5px] leading-relaxed font-normal"
+                style={{ color: "rgba(10,10,10,0.62)" }}
+              >
+                {p.d}
+              </p>
+              <div className="mt-8 flex flex-wrap gap-2">
+                {p.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="font-mono-cap px-2.5 py-1 rounded-full"
+                    style={{
+                      background: "rgba(10,10,10,0.06)",
+                      color: "rgba(10,10,10,0.7)",
+                    }}
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+</file>
+
+<file path="src/components/site/Process.jsx">
+import React from "react";
+
+const STEPS = [
+  {
+    n: "01",
+    label: "step 1 / 4",
+    t: "Identify",
+    d: "Enter symptoms or OBD-II codes into the Knowledge Hub to instantly surface the most likely causes and associated TSBs.",
+    tags: ["Symptoms", "Codes", "Search"],
+  },
+  {
+    n: "02",
+    label: "step 2 / 4",
+    t: "Diagnose",
+    d: "Review diagnostic flowcharts and testing procedures to pinpoint the exact component failure before replacing any parts.",
+    tags: ["Testing", "Flowcharts", "Pinpoint"],
+  },
+  {
+    n: "03",
+    label: "step 3 / 4",
+    t: "Execute",
+    d: "Follow step-by-step installation guides with factory torque specs and tool requirements to complete the repair safely.",
+    tags: ["Install", "Torque", "Tools"],
+  },
+  {
+    n: "04",
+    label: "step 4 / 4",
+    t: "Verify",
+    d: "Clear the codes, perform any required relearn procedures, and test drive the vehicle to verify the repair was successful.",
+    tags: ["Clear Codes", "Relearn", "Test Drive"],
+  },
+];
+
+export default function Process() {
+  return (
+    <section
+      id="process"
+      className="relative"
+      style={{ background: "var(--c-cream-2)", color: "var(--c-ink)" }}
+    >
+      <div className="grid grid-cols-12 gap-6 px-5 md:px-10 lg:px-14 py-24 md:py-32 border-t" style={{ borderColor: "rgba(10,10,10,0.08)"}}>
+        <div className="col-span-12 md:col-span-4">
+          <span className="font-mono-cap" style={{ color: "rgba(10,10,10,0.55)" }}>
+            Process
+          </span>
+          <h2
+            className="mt-4 font-display"
+            style={{
+              fontSize: "clamp(40px, 5.2vw, 76px)",
+              lineHeight: 0.96,
+              letterSpacing: "-0.03em",
+            }}
+          >
+            From symptom to{" "}
+            <span className="italic-display">fixed,</span> every day.
+          </h2>
+          <p
+            className="mt-5 text-[14px] font-mono-cap"
+            style={{ color: "rgba(10,10,10,0.55)" }}
+          >
+            Four steps · repair correctly
+          </p>
+        </div>
+
+        <div className="col-span-12 md:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-3">
+          {STEPS.map((s) => (
+            <article
+              key={s.n}
+              className="rounded-3xl p-7 md:p-8"
+              style={{
+                background: "var(--c-cream)",
+                border: "1px solid rgba(10,10,10,0.07)",
+              }}
+            >
+              <div className="flex items-center gap-3">
+                <span className="font-display text-[34px] md:text-[42px]" style={{ letterSpacing: "-0.02em" }}>
+                  {s.n}
+                </span>
+                <span className="font-mono-cap" style={{ color: "rgba(10,10,10,0.55)" }}>
+                  {s.label}
+                </span>
+              </div>
+              <h3
+                className="mt-5 font-display"
+                style={{
+                  fontSize: "clamp(24px, 2.4vw, 34px)",
+                  lineHeight: 1,
+                  letterSpacing: "-0.02em",
+                }}
+              >
+                {s.t}
+              </h3>
+              <p
+                className="mt-4 text-[14.5px] leading-relaxed font-normal"
+                style={{ color: "rgba(10,10,10,0.62)" }}
+              >
+                {s.d}
+              </p>
+              <div className="mt-6 flex flex-wrap gap-2">
+                {s.tags.map((t) => (
+                  <span
+                    key={t}
+                    className="font-mono-cap px-2.5 py-1 rounded-full"
+                    style={{
+                      background: "rgba(10,10,10,0.05)",
+                      color: "rgba(10,10,10,0.7)",
+                    }}
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+</file>
+
+<file path="src/components/site/Stats.jsx">
+import React, { useEffect, useRef, useState } from "react";
+
+const STATS = [
+  { n: 14000, suffix: "+", label: "vehicles covered across all makes and models" },
+  { n: 35, suffix: "", label: "diagnostic and installation guides available" },
+  { n: 2.5, suffix: "×", label: "faster diagnosis time on average" },
+  { n: 7, suffix: "", label: "major component categories covered" },
+];
+
+function Counter({ value, suffix }) {
+  const [shown, setShown] = useState(0);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const node = ref.current;
+    if (!node) return;
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduced) {
+      setShown(value);
+      return;
+    }
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            const start = performance.now();
+            const dur = 1600;
+            const tick = (now) => {
+              const t = Math.min(1, (now - start) / dur);
+              const eased = 1 - Math.pow(1 - t, 3);
+              setShown(value * eased);
+              if (t < 1) requestAnimationFrame(tick);
+            };
+            requestAnimationFrame(tick);
+            obs.disconnect();
+          }
+        });
+      },
+      { threshold: 0.4 }
+    );
+    obs.observe(node);
+    return () => obs.disconnect();
+  }, [value]);
+
+  const isFloat = value % 1 !== 0;
+  const display = isFloat
+    ? shown.toFixed(1)
+    : Math.round(shown).toLocaleString();
+  return (
+    <span ref={ref} className="font-display tabular-nums" data-testid="stat-counter">
+      {display}
+      {suffix}
+    </span>
+  );
+}
+
+export default function Stats() {
+  return (
+    <section
+      className="relative glow-bg grain"
+      data-testid="stats-section"
+    >
+      <div className="relative z-[2] grid grid-cols-12 gap-6 px-5 md:px-10 lg:px-14 py-28 md:py-40">
+        <div className="col-span-12 md:col-span-4">
+          <span className="font-mono-cap text-white/55">The scale</span>
+          <h2
+            className="mt-4 font-display text-white"
+            style={{
+              fontSize: "clamp(40px, 5.2vw, 76px)",
+              lineHeight: 0.96,
+              letterSpacing: "-0.03em",
+            }}
+          >
+            Thousands of vehicles covered,{" "}
+            <span className="italic-display" style={{ color: "#efe1d8" }}>
+              one complete knowledge base.
+            </span>
+          </h2>
+        </div>
+
+        <div className="col-span-12 md:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+          {STATS.map((s, i) => (
+            <div
+              key={s.label}
+              className="rounded-2xl p-7 md:p-8 count-up"
+              style={{
+                background: "rgba(255,255,255,0.04)",
+                border: "1px solid rgba(255,255,255,0.10)",
+                animationDelay: `${i * 80}ms`,
+              }}
+            >
+              <div
+                className="text-white"
+                style={{
+                  fontSize: "clamp(58px, 6vw, 96px)",
+                  lineHeight: 1,
+                  letterSpacing: "-0.04em",
+                }}
+              >
+                <Counter value={s.n} suffix={s.suffix} />
+              </div>
+              <p className="mt-6 max-w-[300px] text-[14px] text-white/62 leading-snug font-normal">
+                {s.label}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+</file>
+
+<file path="src/components/site/TopNav.jsx">
+import React, { useEffect, useState } from "react";
+import { Plus, ArrowRight } from "lucide-react";
+
+const NAV = [
+  { label: "Quick Guides", href: "#guides" },
+  { label: "Knowledge Hub", href: "#search" },
+  { label: "Recalls", href: "#recalls" },
+];
+
+export default function TopNav() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 24);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  return (
+    <header
+      data-testid="top-nav"
+      className="fixed top-0 left-0 right-0 z-50 pointer-events-none"
+    >
+      <div className="flex items-start justify-between gap-3 px-5 md:px-8 pt-5 md:pt-6">
+        <a
+          href="#top"
+          data-testid="brand-mark"
+          className="pointer-events-auto flex items-center gap-2.5 group"
+        >
+          <span
+            className="flex items-center justify-center h-8 w-8 rounded-full text-white"
+            style={{
+              background: "rgba(255,255,255,0.06)",
+              border: "1px solid rgba(255,255,255,0.18)",
+              backdropFilter: "blur(10px)",
+            }}
+          >
+            <Plus
+              strokeWidth={1.5}
+              className="h-4 w-4 transition-transform duration-300 group-hover:rotate-90"
+            />
+          </span>
+          <span className="hidden sm:flex flex-col leading-tight">
+            <span className="text-[15px] font-display tracking-tight text-white">
+              ALL AI AUTOMOTIVE
+            </span>
+            <span className="font-mono-cap text-white/55">
+              Diagnostic · operating system
+            </span>
+          </span>
+        </a>
+
+        <nav
+          className={`pointer-events-auto hidden md:flex items-center gap-1.5 rounded-full px-2 py-1.5 transition-all duration-300`}
+          style={{
+            background: "rgba(8,8,9,0.72)",
+            border: "1px solid rgba(255,255,255,0.10)",
+            backdropFilter: "blur(14px)",
+          }}
+          data-testid="primary-nav"
+        >
+          {NAV.map((item) => (
+            <a
+              key={item.label}
+              href={item.href}
+              className="px-3.5 py-1.5 rounded-full text-[13px] text-white/85 hover:text-white hover:bg-white/[0.06] transition"
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
+
+        <a
+          href="#search"
+          className="pointer-events-auto pill pill-light"
+        >
+          Start Search
+          <span className="flex items-center justify-center h-5 w-5 rounded-full bg-[#0a0a0a] text-white">
+            <ArrowRight className="h-3 w-3" strokeWidth={2.2} />
+          </span>
+        </a>
+      </div>
+    </header>
+  );
+}
+</file>
+
+<file path="src/pages/AlternatorsPage.jsx">
+import React from "react";
+import TopNav from "../components/site/TopNav";
+import Footer from "../components/site/Footer";
+
+export default function AlternatorsPage() {
+  return (
+    <div className="min-h-screen bg-black font-sans text-white overflow-x-hidden selection:bg-[#ff8a4a]/30 selection:text-white">
+      <TopNav />
+      <main className="pt-32 pb-24 px-5 md:px-10 lg:px-14 max-w-[1400px] mx-auto">
+        <div className="mb-12">
+          <span className="font-mono-cap text-white/50">Quick Guide</span>
+          <h1 className="mt-4 font-display text-white" style={{ fontSize: "clamp(40px, 5vw, 76px)", lineHeight: 0.96, letterSpacing: "-0.03em" }}>
+            Alternators <span className="italic-display" style={{ color: "#efe1d8" }}>Guide</span>
+          </h1>
+        </div>
+        
+        <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
+          
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Alternator Installation Overview</h3>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  Proper installation of an alternator is critical for the electrical system's reliability and 
+                  longevity. This guide provides step-by-step instructions for correctly diagnosing alternator 
+                  issues and ensuring proper installation of a replacement unit.
+                </p>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  The alternator is responsible for charging the battery and powering the vehicle's electrical 
+                  systems while the engine is running. A failing alternator can lead to battery drain, electrical 
+                  system issues, and eventually vehicle breakdown. Following these best practices will help ensure 
+                  a successful installation and prevent premature failure.
+                </p>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Vehicle Preparation</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Refer to vehicle service information for any special testing, removal, or installation procedures</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for any related technical service bulletins</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Refer to any warning tags or technical bulletins included in the box with the replacement part</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify that battery state of charge is a minimum of 12.45 volts</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Charge battery as needed</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Perform load test on battery to determine state of health</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Visually inspect battery cables for corrosion</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Perform voltage drop tests on positive/negative cables</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Replace cables as needed</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Check for fluid leaks that may have caused the current failure</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Engine oil, coolant, etc.</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Repair or replace source of the fluid leak</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Obtain all vehicle information to ensure correct part application</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Make, year, model, engine, equipment/option packages, etc.</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Alternator Diagnosis Steps</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Turn the ignition on but do not start the engine and observe the instrument cluster for warning lights</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Battery light illuminated key-on-engine-off (KOEO), does this turn off after the engine is started?</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Unusual noise coming from the alternator?</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Connect scan tool and scan all modules for related diagnostic trouble codes (DTC)</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Follow service information to correct associated DTC</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Retest charging system to determine if fault has been corrected</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Check belt condition, tension, and alignment</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Operate tensioner through full range of travel</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check/replace belt</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Inspect alternator wiring connections for damage and repair as needed</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Proceed if it is determined the alternator has failed and needs replacement</div></div>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Alternator Installation Steps</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Disconnect negative battery cable</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Ensure alternator mounting surface is clean and free from debris, oil, grease, corrosion, etc.</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Transfer any mounting hardware, brackets, braces, spacers, sensors, switches from original alternator to replacement if applicable</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Torque alternator mounting bolts to proper specifications</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify connector compatibility</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">If connectors are different from OE, verify wire functions</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Follow included adaptor harness instructions (if applicable)</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Properly torque all mounting bolts & electrical connections</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Follow manufacturer specifications</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check belt alignment and tension</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Alternator Verification</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify proper operation of charging system</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Allow engine to reach operating temperature</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Turn on accessories and monitor output in response to measure voltage and amperage output from alternator</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Compare to vehicle service information</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify charging system output voltage (13.5V-14.5V at idle)</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Test at various RPM levels</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for any warning lights or system codes</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Road test vehicle with electrical loads active</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Turn on headlights, HVAC system, radio, etc.</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify stable charging system operation</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify correct function and operation</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+        </div>
+      
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+      <Footer />
+    </div>
+  );
+}
+</file>
+
+<file path="src/pages/BoostersPage.jsx">
+import React from "react";
+import TopNav from "../components/site/TopNav";
+import Footer from "../components/site/Footer";
+
+export default function BoostersPage() {
+  return (
+    <div className="min-h-screen bg-black font-sans text-white overflow-x-hidden selection:bg-[#ff8a4a]/30 selection:text-white">
+      <TopNav />
+      <main className="pt-32 pb-24 px-5 md:px-10 lg:px-14 max-w-[1400px] mx-auto">
+        <div className="mb-12">
+          <span className="font-mono-cap text-white/50">Quick Guide</span>
+          <h1 className="mt-4 font-display text-white" style={{ fontSize: "clamp(40px, 5vw, 76px)", lineHeight: 0.96, letterSpacing: "-0.03em" }}>
+            Brake Boosters <span className="italic-display" style={{ color: "#efe1d8" }}>Guide</span>
+          </h1>
+        </div>
+        
+        <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
+          
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Brake Booster Overview</h3>
+                
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  Brake boosters are essential components in modern vehicle braking systems, multiplying the force 
+                  applied to the brake pedal to reduce the effort required for effective braking. There are two main 
+                  types of brake boosters: vacuum boosters and hydro-boosters.
+                </p>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+                  <div className="bg-transparent">
+                    <h4 className="font-medium text-lg mb-2">Vacuum Boosters</h4>
+                    <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                      Vacuum boosters use engine vacuum (or a vacuum pump in some applications) to create a pressure 
+                      differential that multiplies braking force. These are the most common type found in cars and 
+                      light-duty trucks.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-transparent">
+                    <h4 className="font-medium text-lg mb-2">Hydro-Boosters</h4>
+                    <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                      Hydro-boosters use hydraulic pressure from the power steering system to multiply braking force. 
+                      These are typically found in larger vehicles, diesel applications, or where high vacuum 
+                      is not readily available.
+                    </p>
+                  </div>
+                </div>
+                
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  Proper installation of a brake booster is critical for brake system performance and safety. 
+                  This guide covers best practices for installing both vacuum boosters and hydro-boosters, 
+                  including preparation, installation steps, and verification procedures.
+                </p>
+                
+                <div className="mt-4 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-sm">
+                  <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">Important Safety Note:</p>
+                  <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">The brake system is a critical safety component. Always follow manufacturer procedures 
+                  and take extra precautions during booster replacement. Improper installation can lead to 
+                  reduced braking performance or brake failure. If you're unsure about any aspect of brake 
+                  booster replacement, consult a professional technician.</p>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <div className="flex gap-4 mb-6">
+                  <button
+                    onClick={() => handleBoosterTypeChange("vacuum")}
+                    className={`px-4 py-2 rounded ${
+                      boosterType === "vacuum"
+                        ? "bg-[#dc3545] text-white"
+                        : "bg-gray-100 hover:bg-gray-200"
+                    }`}
+                  >
+                    Vacuum Boosters
+                  </button>
+                  <button
+                    onClick={() => handleBoosterTypeChange("hydro")}
+                    className={`px-4 py-2 rounded ${
+                      boosterType === "hydro"
+                        ? "bg-[#dc3545] text-white"
+                        : "bg-gray-100 hover:bg-gray-200"
+                    }`}
+                  >
+                    Hydro-Boosters
+                  </button>
+                </div>
+                
+                {boosterType === "vacuum" ? (
+                  <div>
+                    <h3 className="font-display text-[24px] mb-4 text-white">Vacuum Booster Preparation</h3>
+                    
+                    <div className="space-y-4">
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Refer to vehicle service information for any special testing, removal, or installation procedures</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for any related technical service bulletins</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Refer to any warning tags or technical bulletins included in the box with the replacement vacuum booster</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify proper vacuum supply to brake booster with a vacuum gauge</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Inspect vacuum supply hose for cracks, deterioration, or collapsed sections</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check vacuum check valve function and orientation</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Measure engine vacuum at idle to ensure adequate vacuum is available</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Check for evidence of brake fluid leakage at mating surface of master cylinder and brake booster</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">If master cylinder rear seal is leaking brake fluid, the master cylinder will require replacement as well</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Inspect master cylinder mounting surface for damage or corrosion</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Obtain all vehicle info to ensure correct part application</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Make, year, model, engine, brake system details, etc.</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify replacement booster matches original in size, mounting configuration, and pushrod length</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Gather necessary tools and parts</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Master cylinder gasket (if applicable)</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Pushrod measurement tool</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Vacuum gauge</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Torque wrench</li>
+                      </ul></div>
+                    </div>
+                  </div>
+                ) : (
+                  <div>
+                    <h3 className="font-display text-[24px] mb-4 text-white">Hydro-Booster Preparation</h3>
+                    
+                    <div className="space-y-4">
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Refer to vehicle service information for any special testing, removal, or installation procedures</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for any related technical service bulletins</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Refer to any warning tags or technical bulletins included in the box with the replacement hydroboost assembly</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Obtain all vehicle information to ensure correct part application</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Make, year, model, engine, brake system details, etc.</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify replacement hydroboost matches original in configuration and connection points</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Inspect and correct any problems with the power steering system</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Inspect the power steering pump drive belt for wear, damage, and proper tension</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Replace any leaking or damaged power steering hoses</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Using a power steering pressure gauge verify correct power steering pump pressures</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check power steering fluid condition and level</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Gather necessary tools and parts</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Power steering fluid (correct type for vehicle)</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">New O-rings and seals</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Fluid catch pan</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Torque wrench</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Power steering pressure gauge</li>
+                      </ul></div>
+                    </div>
+                  </div>
+                )}
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <div className="flex gap-4 mb-6">
+                  <button
+                    onClick={() => handleBoosterTypeChange("vacuum")}
+                    className={`px-4 py-2 rounded ${
+                      boosterType === "vacuum"
+                        ? "bg-[#dc3545] text-white"
+                        : "bg-gray-100 hover:bg-gray-200"
+                    }`}
+                  >
+                    Vacuum Boosters
+                  </button>
+                  <button
+                    onClick={() => handleBoosterTypeChange("hydro")}
+                    className={`px-4 py-2 rounded ${
+                      boosterType === "hydro"
+                        ? "bg-[#dc3545] text-white"
+                        : "bg-gray-100 hover:bg-gray-200"
+                    }`}
+                  >
+                    Hydro-Boosters
+                  </button>
+                </div>
+                
+                {boosterType === "vacuum" ? (
+                  <div>
+                    <h3 className="font-display text-[24px] mb-4 text-white">Vacuum Booster Installation</h3>
+                    
+                    <div className="space-y-4">
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Remove master cylinder from brake booster</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Disconnect brake lines from master cylinder and cap to prevent fluid loss and contamination</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Remove master cylinder mounting nuts and carefully remove cylinder from booster</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Disconnect vacuum supply hose from booster</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Carefully remove vacuum hose to avoid damaging the check valve</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Inspect check valve for proper function - should allow vacuum only in one direction</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Remove booster from firewall</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Disconnect brake pedal pushrod from inside vehicle (may require dashboard or underdash component removal)</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Remove mounting nuts securing booster to firewall</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Carefully remove booster from vehicle</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Transfer any mounting hardware, brackets, braces, spacers, sensors, switches from original booster to replacement booster if applicable</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure all transferred components are in good condition</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Replace any damaged or worn components</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify correct pushrod adjustments – brake pedal pushrod and master cylinder push rod</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Refer to vehicle service information</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Compare pushrod length to the original unit</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Adjust as needed to match original specifications</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Install new booster</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Carefully position booster against firewall, aligning pushrod with brake pedal connection</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Install and tighten mounting nuts to specified torque</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Connect brake pedal to pushrod inside vehicle</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Install master cylinder</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Use new gasket between master cylinder and booster</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Install master cylinder mounting nuts and torque to specification</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Reconnect brake lines and torque to specification</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Connect vacuum supply</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Install vacuum check valve in correct orientation if removed</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Connect vacuum hose to booster check valve</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Secure with appropriate clamp if needed</li>
+                      </ul></div>
+                    </div>
+                  </div>
+                ) : (
+                  <div>
+                    <h3 className="font-display text-[24px] mb-4 text-white">Hydro-Booster Installation</h3>
+                    
+                    <div className="space-y-4">
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Remove master cylinder from hydroboost</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Disconnect brake lines from master cylinder and cap to prevent fluid loss</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Remove master cylinder mounting nuts and carefully remove cylinder</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Disconnect power steering lines from hydroboost</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Place drain pan under connections to catch fluid</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Mark pressure and return lines for proper reconnection</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Disconnect and cap lines to prevent contamination</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Remove hydroboost from firewall</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Disconnect brake pedal from pushrod (may require interior access)</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Remove mounting nuts from firewall</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Carefully remove hydroboost unit</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Transfer any mounting hardware, brackets, braces, spacers, sensors, switches from the original hydroboost unit to the replacement booster if applicable</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure all components are clean and in good condition</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Replace any damaged components</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify correct pushrod adjustments – brake pedal pushrod and master cylinder pushrod</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Refer to vehicle service information</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Compare pushrod length to the original unit</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Adjust as needed to match original specifications</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Install new hydroboost unit</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Position against firewall and align with mounting holes</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Install mounting nuts and torque to specification</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Connect brake pedal to pushrod</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Replace all seals, gaskets, and O-rings during installation to avoid leaks</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Use new O-rings at all hydraulic connections</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">All threaded power steering lines should be carefully started by hand before final tightening to prevent cross-threading and damage to the lines and/or the hydroboost assembly</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Torque all fittings to specification</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Install master cylinder to hydroboost</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Use new gasket if applicable</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Torque mounting nuts to specification</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Reconnect brake lines</li>
+                      </ul></div>
+                    </div>
+                  </div>
+                )}
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <div className="flex gap-4 mb-6">
+                  <button
+                    onClick={() => handleBoosterTypeChange("vacuum")}
+                    className={`px-4 py-2 rounded ${
+                      boosterType === "vacuum"
+                        ? "bg-[#dc3545] text-white"
+                        : "bg-gray-100 hover:bg-gray-200"
+                    }`}
+                  >
+                    Vacuum Boosters
+                  </button>
+                  <button
+                    onClick={() => handleBoosterTypeChange("hydro")}
+                    className={`px-4 py-2 rounded ${
+                      boosterType === "hydro"
+                        ? "bg-[#dc3545] text-white"
+                        : "bg-gray-100 hover:bg-gray-200"
+                    }`}
+                  >
+                    Hydro-Boosters
+                  </button>
+                </div>
+                
+                {boosterType === "vacuum" ? (
+                  <div>
+                    <h3 className="font-display text-[24px] mb-4 text-white">Vacuum Booster Verification</h3>
+                    
+                    <div className="space-y-4">
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Bleed brake system</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Fill master cylinder with appropriate brake fluid</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Bleed brake system following manufacturer procedures</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for proper pedal feel and height</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Check for leaks</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Inspect all brake line connections</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check master cylinder mounting surface for fluid seepage</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure vacuum connections are secure</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify proper operation of brake lights</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Brake light switch may require adjustment after booster replacement</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Brake pedal position sensor may require calibration or relearn procedure after booster replacement</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Test brake lights in all conditions (running, braking, emergency)</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify power assist operation</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">With engine off, pump brake pedal until firm</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Hold pressure on pedal, start engine - pedal should drop slightly as vacuum assist engages</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify proper pedal feel and boost operation</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Road test vehicle – verify correct function and operation</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for proper brake function at various speeds</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify no warning lights are illuminated</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Confirm normal pedal travel and feel</li>
+                      </ul></div>
+                    </div>
+                  </div>
+                ) : (
+                  <div>
+                    <h3 className="font-display text-[24px] mb-4 text-white">Hydro-Booster Verification</h3>
+                    
+                    <div className="space-y-4">
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Flush and bleed power steering system</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">The power steering system should be flushed to remove any dirt, debris, or deteriorated power steering fluid during hydroboost installation</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Refer to the vehicle service information for the correct power steering fluid type for the vehicle</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">The power steering filter should be replaced (if applicable)</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Bleed the power steering system to remove air</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Bleed brake system</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Fill master cylinder with appropriate brake fluid</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Bleed brake system following manufacturer procedures</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for proper pedal feel and height</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Check for leaks</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Inspect all brake line connections</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check all power steering connections at hydroboost</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Run engine and verify no fluid leaks at connections</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify proper operation of brake lights</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Brake light switch may require adjustment after hydroboost replacement</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Brake pedal position sensor may require calibration or relearn procedure after hydroboost replacement</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Test brake lights in all conditions</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify power assist operation</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">With engine off, pump brake pedal until firm</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Start engine and check for power assist</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify reserve system function (if equipped) by applying brakes with engine off</li>
+                      </ul></div>
+                      
+                      <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Road test vehicle – verify correct function and operation</div><ul>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for proper brake function at various speeds</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify smooth power steering operation</li>
+                        <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Confirm no unusual noises from power steering pump or hydroboost</li>
+                      </ul></div>
+                    </div>
+                  </div>
+                )}
+        </div>
+      
+        </div>
+      
+</div>
+</div>
+</div>
+</div>
+</main>
+      <Footer />
+    </div>
+  );
+}
+</file>
+
+<file path="src/pages/BrakePadsRotorsPage.jsx">
+import React from "react";
+import TopNav from "../components/site/TopNav";
+import Footer from "../components/site/Footer";
+
+export default function BrakePadsRotorsPage() {
+  return (
+    <div className="min-h-screen bg-black font-sans text-white overflow-x-hidden selection:bg-[#ff8a4a]/30 selection:text-white">
+      <TopNav />
+      <main className="pt-32 pb-24 px-5 md:px-10 lg:px-14 max-w-[1400px] mx-auto">
+        <div className="mb-12">
+          <span className="font-mono-cap text-white/50">Quick Guide</span>
+          <h1 className="mt-4 font-display text-white" style={{ fontSize: "clamp(40px, 5vw, 76px)", lineHeight: 0.96, letterSpacing: "-0.03em" }}>
+            Brake Pads & Rotors <span className="italic-display" style={{ color: "#efe1d8" }}>Guide</span>
+          </h1>
+        </div>
+        
+        <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
+          
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Brake Pads & Rotors Installation Overview</h3>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  Proper brake pad and rotor replacement is essential for vehicle safety and optimal braking 
+                  performance. This guide provides comprehensive instructions for diagnosing, removing, and 
+                  installing brake pads and rotors according to industry best practices.
+                </p>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  Brake pads and rotors are critical wear items in your vehicle's braking system. The pads provide 
+                  the friction surface that presses against the rotors (discs) when the brakes are applied, 
+                  converting kinetic energy into heat energy to slow and stop the vehicle.
+                </p>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  Following these best practices during installation will help ensure proper brake system function, 
+                  maximize component life, and prevent issues such as noise, vibration, premature wear, or reduced 
+                  braking performance.
+                </p>
+                <div className="mt-4 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-sm">
+                  <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">Important Safety Note:</p>
+                  <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">The brake system is a critical safety component. Always follow manufacturer procedures 
+                  and take extra precautions during installation. If you're unsure about any aspect of brake 
+                  service, consult a professional technician.</p>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Vehicle Preparation</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Refer to vehicle service information for any special testing, removal, or installation procedures</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for any related technical service bulletins</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Obtain all vehicle information to ensure correct part application</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Make, year, model, engine, drivetrain configuration (FWD, RWD, 4WD, AWD), brake system details, etc.</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Test drive vehicle to verify customer brake system complaint (if applicable)</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Note any noise, vibration, pulling, or pedal feedback</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Test braking performance under various conditions (light/heavy braking, low/high speeds)</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Raise and safely support vehicle. Refer to vehicle service info for lifting/jacking instructions</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure vehicle is on level ground before lifting</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Use proper jack points and jack stands rated for the vehicle weight</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Remove all 4 wheels and perform a complete brake system inspection</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Inspect underhood brake system components – master cylinder, brake fluid condition</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Complete inspection of the tires, steering, suspension, and driveline components for wear or damage should be performed as problems in these areas can sometimes affect brake performance</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for uneven pad wear, rotor scoring, discoloration, or warping</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Inspect brake fluid level and condition</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+        </div>
+      
+</div>
+</div>
+</main>
+      <Footer />
+    </div>
+  );
+}
+</file>
+
+<file path="src/pages/CalipersPage.jsx">
+import React from "react";
+import TopNav from "../components/site/TopNav";
+import Footer from "../components/site/Footer";
+
+export default function CalipersPage() {
+  return (
+    <div className="min-h-screen bg-black font-sans text-white overflow-x-hidden selection:bg-[#ff8a4a]/30 selection:text-white">
+      <TopNav />
+      <main className="pt-32 pb-24 px-5 md:px-10 lg:px-14 max-w-[1400px] mx-auto">
+        <div className="mb-12">
+          <span className="font-mono-cap text-white/50">Quick Guide</span>
+          <h1 className="mt-4 font-display text-white" style={{ fontSize: "clamp(40px, 5vw, 76px)", lineHeight: 0.96, letterSpacing: "-0.03em" }}>
+            Brake Calipers <span className="italic-display" style={{ color: "#efe1d8" }}>Guide</span>
+          </h1>
+        </div>
+        
+        <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
+          
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Brake Caliper Installation Overview</h3>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  Brake calipers are a critical component of the disc brake system, housing the brake pads 
+                  and pistons that apply pressure to the brake rotors to slow or stop the vehicle. Proper 
+                  caliper installation is essential for brake system performance, safety, and longevity.
+                </p>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  This guide provides comprehensive instructions for replacing brake calipers, covering both 
+                  front and rear applications, including special considerations for vehicles with electronic 
+                  parking brakes. Following these best practices will help ensure proper brake system function 
+                  and prevent issues such as uneven braking, fluid leaks, or premature wear.
+                </p>
+                <div className="mt-4 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-sm">
+                  <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">Important Safety Note:</p>
+                  <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">The brake system is a critical safety component. Always follow manufacturer procedures 
+                  and take extra precautions during caliper replacement. Improper installation can lead to 
+                  brake failure, resulting in property damage, personal injury, or death. If you're unsure 
+                  about any aspect of caliper replacement, consult a professional technician.</p>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Vehicle Preparation</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Refer to vehicle service information for any special testing, removal, or installation procedures</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for any related technical service bulletins</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for and address any brake-related diagnostic trouble codes and/or warning lights on the instrument panel</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Refer to any warning tags or technical bulletins included in the box with the replacement caliper</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Obtain all vehicle information to ensure correct part application</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Make, year, model, engine, drivetrain configuration (FWD, RWD, 4WD, AWD), brake system details, etc.</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify the replacement caliper is correct for the specific vehicle application</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Confirm whether the vehicle has conventional or electronic parking brakes (for rear calipers)</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Inspect brake pads, brake hardware, brake caliper brackets, and rotors for wear. Replace as necessary. Refer to vehicle service manual</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check brake pad thickness and wear pattern</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Inspect rotor surface for scoring, cracks, or excessive wear</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Examine caliper brackets for damage or corrosion</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Note: After installing new brake calipers, it would be an ideal time to flush the hydraulic brake system. Refer to the vehicle service manual for hydraulic brake system flushing procedure</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Gather all necessary tools and supplies</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Brake fluid (correct type for vehicle)</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Brake grease (high-temperature)</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Torque wrench</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Brake bleeding equipment</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">New copper washers (for banjo bolt connections)</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Brake Caliper Installation</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Prepare caliper sliding mechanisms</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Clean caliper bracket and sliding surfaces</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Remove any rust or corrosion from bracket and sliding surfaces</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Lubricate caliper guide-pins (as applicable) with high-temperature brake grease and install in brake caliper bracket with guide-pin boots</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Apply grease only to specific areas recommended by manufacturer</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure boots are properly seated to keep out debris</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Transfer components from old caliper if required</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">For rear calipers with electronic parking brake, transfer motor to new caliper</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Transfer any brackets or special hardware not included with new caliper</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Mount the brake caliper to the brake caliper bracket. If equipped with caliper guide-pins, ensure caliper and caliper guide-pin mating surfaces are flush and correctly positioned</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify proper orientation of caliper (bleeder screw must be at top position)</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure caliper moves freely on slide pins</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Install all caliper mounting hardware and torque to manufacturers specifications</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Use torque wrench set to correct specifications</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify all hardware is properly tightened</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Rear caliper installation: Install the parking brake cable (if applicable). If equipped with electric parking brakes, install the parking brake motor to the brake caliper before the brake caliper is mounted.</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure parking brake cable is properly routed and secured</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify electronic parking brake connections are secure</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Remove cap or plug from brake hose/line</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Install the brake caliper hose/line to the caliper. Torque to manufacturers' specifications. Note: If brake caliper hose uses a banjo bolt, replace washers with new ones</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Always use new copper washers for banjo bolt connections</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure proper alignment of hose to prevent twisting or kinking</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+        </div>
+      
+</div>
+</div>
+</div>
+</main>
+      <Footer />
+    </div>
+  );
+}
+</file>
+
+<file path="src/pages/MasterCylindersPage.jsx">
+import React from "react";
+import TopNav from "../components/site/TopNav";
+import Footer from "../components/site/Footer";
+
+export default function MasterCylindersPage() {
+  return (
+    <div className="min-h-screen bg-black font-sans text-white overflow-x-hidden selection:bg-[#ff8a4a]/30 selection:text-white">
+      <TopNav />
+      <main className="pt-32 pb-24 px-5 md:px-10 lg:px-14 max-w-[1400px] mx-auto">
+        <div className="mb-12">
+          <span className="font-mono-cap text-white/50">Quick Guide</span>
+          <h1 className="mt-4 font-display text-white" style={{ fontSize: "clamp(40px, 5vw, 76px)", lineHeight: 0.96, letterSpacing: "-0.03em" }}>
+            Master Cylinders <span className="italic-display" style={{ color: "#efe1d8" }}>Guide</span>
+          </h1>
+        </div>
+        
+        <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
+          
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Master Cylinder Installation Overview</h3>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  The master cylinder is the heart of the hydraulic brake system, converting mechanical force 
+                  from the brake pedal into hydraulic pressure that activates the vehicle's brakes. Proper installation 
+                  is critical for brake system performance and safety.
+                </p>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  This guide provides comprehensive instructions for master cylinder replacement, including 
+                  preparation, bench bleeding procedures, installation, and system testing. Following these 
+                  best practices will help ensure proper brake system operation and prevent issues such as 
+                  soft brake pedal, reduced braking performance, or brake system failure.
+                </p>
+                <div className="mt-4 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-sm">
+                  <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">Important Safety Note:</p>
+                  <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">The brake system is a critical safety component. Always follow manufacturer procedures 
+                  and take extra precautions during installation to ensure proper function. If you're unsure 
+                  about any aspect of installation, consult a professional technician.</p>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Vehicle Preparation</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Refer to vehicle service information for any special testing, removal, or installation procedures</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for any related technical service bulletins</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Refer to any warning tags or technical bulletins included in the box with the replacement master cylinder</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Obtain all vehicle information to ensure correct part application</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Make, year, model, engine, drivetrain configuration (FWD, RWD, 4WD, AWD), brake system details, transmission type, etc.</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">A complete inspection of the tires, steering, suspension, and brake system components for wear or damage should be performed</div></div>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Installation Steps</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">After bench bleeding the master cylinder, mount it on the vehicle using a new gasket/seal (if applicable), and torque mounting fasteners to the vehicle manufacturer's specifications</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Carefully start by hand-tightening all threaded brake line connections to avoid cross-threading and damage to replacement master cylinder or brake lines. Torque brake line connections to the vehicle manufacturer specifications</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Fill master cylinder fluid reservoir to the proper level. Pump the brake pedal 3 – 4 times. Apply and hold brake pedal pressure while checking master cylinder brake line connections for leaks</div></div>
+                </div>
+        </div>
+      
+        </div>
+      
+</div>
+</div>
+</div>
+</main>
+      <Footer />
+    </div>
+  );
+}
+</file>
+
+<file path="src/pages/StartersPage.jsx">
+import React from "react";
+import TopNav from "../components/site/TopNav";
+import Footer from "../components/site/Footer";
+
+export default function StartersPage() {
+  return (
+    <div className="min-h-screen bg-black font-sans text-white overflow-x-hidden selection:bg-[#ff8a4a]/30 selection:text-white">
+      <TopNav />
+      <main className="pt-32 pb-24 px-5 md:px-10 lg:px-14 max-w-[1400px] mx-auto">
+        <div className="mb-12">
+          <span className="font-mono-cap text-white/50">Quick Guide</span>
+          <h1 className="mt-4 font-display text-white" style={{ fontSize: "clamp(40px, 5vw, 76px)", lineHeight: 0.96, letterSpacing: "-0.03em" }}>
+            Starters <span className="italic-display" style={{ color: "#efe1d8" }}>Guide</span>
+          </h1>
+        </div>
+        
+        <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
+          
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Starter Installation Overview</h3>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  Proper installation of a starter motor is crucial for reliable vehicle starting and 
+                  prevention of premature failures. This guide provides step-by-step instructions for 
+                  correctly diagnosing starter issues and ensuring proper installation of a replacement unit.
+                </p>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  The starter motor is responsible for cranking the engine during the starting process. 
+                  A failing starter can cause no-start conditions, intermittent starting, or unusual noises 
+                  during cranking. Following these best practices will help ensure a successful installation 
+                  and prevent early component failure.
+                </p>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Vehicle Preparation</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Refer to vehicle service information for any special testing, removal, or installation procedures</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for any related technical service bulletins</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Refer to any warning tags or technical bulletins included in the box with the replacement part</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify that battery state of charge is a minimum of 12.45 volts</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Charge battery as needed</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Perform load test on battery to determine state of health</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Visually inspect battery cables for corrosion</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Perform voltage drop tests on positive/negative cables</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Replace cables as needed</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Check for fluid leaks that may have caused the current failure</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Engine oil, coolant, etc.</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Repair or replace source of the fluid leak</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Starter Diagnosis Steps</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Turn the ignition on but do not start the engine and observe the instrument cluster for warning lights</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Are there any anti-theft, security lights or messages displayed?</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Connect scan tool and scan all modules for related diagnostic trouble codes (DTC)</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Follow service information to correct associated DTC</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Proceed if it is determined that the starter has failed and needs replacement</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Obtain all vehicle info to ensure correct part application</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Make, year, model, engine, equipment/option packages, etc.</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Evaluate the vehicle's starting system</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Battery condition and state of charge</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Battery cables and connections</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for corroded battery terminals</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Inspect starter relay and ignition switch function</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Starter Installation Steps</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Disconnect negative battery cable</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Disconnect all cables from starter before unbolting starter from vehicle</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Do not allow starter to hang from any attached cables</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Inspect the old starter for broken/cracked nose housing, milled pinion, and mounting hole irregularities, and repair the source of the problem</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Backfire on startup, broken or missing teeth on the flywheel and worn-out mounting bolts/hardware</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Ensure starter mounting surface is clean and free from debris, oil, grease, corrosion, paint, etc.</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Transfer any mounting hardware, brackets, braces, spacers, sensors, switches, heat shields from original starter to replacement if applicable</div></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Ensure starter is fully seated before tightening mounting bolts</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Torque starter mounting bolts to proper specifications</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Compare replacement starter to original unit</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify same mounting configuration</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check pinion gear engagement and rotation</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure electrical connector compatibility</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Inspect flywheel/flexplate ring gear for damage</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Look for worn or broken teeth</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for proper alignment</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Properly torque all mounting bolts & electrical connections</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Follow manufacturer specifications</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure proper routing of wires to avoid heat damage</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Starter Verification</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">After installation, test cranking performance</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Reconnect battery</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for proper engagement with ring gear</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify starter draws correct amperage</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Verify proper operation of starting system</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Turn key to crank position and listen for unusual noise</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Road test vehicle – verify correct function and operation</div></div>
+                </div>
+        </div>
+      
+        </div>
+      
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+      <Footer />
+    </div>
+  );
+}
+</file>
+
+<file path="src/pages/WheelHubsPage.jsx">
+import React from "react";
+import TopNav from "../components/site/TopNav";
+import Footer from "../components/site/Footer";
+
+export default function WheelHubsPage() {
+  return (
+    <div className="min-h-screen bg-black font-sans text-white overflow-x-hidden selection:bg-[#ff8a4a]/30 selection:text-white">
+      <TopNav />
+      <main className="pt-32 pb-24 px-5 md:px-10 lg:px-14 max-w-[1400px] mx-auto">
+        <div className="mb-12">
+          <span className="font-mono-cap text-white/50">Quick Guide</span>
+          <h1 className="mt-4 font-display text-white" style={{ fontSize: "clamp(40px, 5vw, 76px)", lineHeight: 0.96, letterSpacing: "-0.03em" }}>
+            Hub Bearing Assemblies <span className="italic-display" style={{ color: "#efe1d8" }}>Guide</span>
+          </h1>
+        </div>
+        
+        <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
+          
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Hub Bearing Installation Overview</h3>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  Wheel hub bearings are critical components that support the vehicle's weight while allowing 
+                  the wheels to rotate freely with minimal friction. They also play an important role in the 
+                  proper function of the ABS and traction control systems through integrated wheel speed sensors.
+                </p>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  This guide covers the best practices for installing wheel hub bearing assemblies. Modern vehicles 
+                  typically use one of two types of wheel bearing assemblies:
+                </p>
+                <ul className="list-disc pl-6 mb-4 space-y-2">
+                  <li>
+                    <span className="font-semibold">Gen 1 (Press-in):</span> These bearings require special 
+                    tools to press the bearing into the steering knuckle and require precise technique to prevent damage.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Gen 2/3 (Bolt-on):</span> These are complete hub assemblies 
+                    that bolt directly to the steering knuckle, making installation simpler but still requiring 
+                    precise torque specifications.
+                  </li>
+                </ul>
+                <p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">
+                  Proper installation is essential to ensure safety, prevent premature failure, and maintain 
+                  optimal vehicle handling characteristics. Following these best practices will help ensure 
+                  successful installation and long service life.
+                </p>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Vehicle Preparation</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Refer to vehicle service information for any special testing, removal, or installation procedures</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for any related technical service bulletins</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Refer to any warning tags or technical bulletins included in the box with the replacement hub bearing</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Obtain all vehicle information to ensure correct part application</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Make, year, model, engine, drivetrain configuration (FWD, RWD, 4WD, AWD), brake system details, etc.</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">A complete inspection of the tires, steering, suspension, brake system, and driveline components for wear or damage should be performed</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for unusual tire wear patterns that may indicate alignment or suspension issues</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Inspect suspension components for wear, damage, or looseness</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Examine brake components for wear or damage</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Make sure to properly raise, support, and secure the vehicle</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Use appropriate lift points specified by the vehicle manufacturer</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure vehicle is stable before proceeding with work</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Check for any wheel speed sensor related fault codes to help with diagnosis and troubleshooting of hub bearing concerns</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Use a scan tool to check for ABS codes related to wheel speed sensors</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Document any codes before beginning work</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Hub Bearing Installation Steps</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Thoroughly clean the steering knuckle mounting surface of rust and corrosion to ensure proper seating and alignment of new bearing assembly</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Use a wire brush or appropriate tool to clean mounting surfaces</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure all debris is removed for proper fitment</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Clean and inspect drive axle/spindle threads for damage</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for damaged or stripped threads</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure splines are in good condition</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Drive axle nut on some vehicle applications should not be reused and will need to be replaced – check vehicle service information</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Many axle nuts are one-time-use only and must be replaced with new ones</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify replacement nut requirements in service information</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Install new hub bearing assembly</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Carefully align the hub bearing assembly with the mounting holes in the knuckle</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Install mounting bolts finger-tight initially to ensure proper alignment</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Torque hub bearing mounting bolts to OE manufacturer specifications</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Use a torque wrench and follow the proper sequence</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure all fasteners are tightened to the correct specification</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="mb-8">
+                <h3 className="font-display text-[24px] mb-4 text-white">Final Verification</h3>
+                
+                <div className="space-y-4">
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Carefully route and secure ABS wheel speed sensor cables and wiring connectors to prevent contact and damage from rotating driveline components</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Ensure wiring is properly clipped into routing guides</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify no wires are stretched, pinched, or able to contact moving parts</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Torque drive axle nut to OE manufacturer specifications</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Use a torque wrench to achieve precise torque setting</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Some axle nuts require a specific tightening procedure or angle tightening</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Install wheel and torque wheel lug nuts to OE manufacturer specifications</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Tighten lug nuts in a star pattern for even pressure</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Use a torque wrench set to the correct specification</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Wheel alignment should be checked after hub bearing replacement</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Hub replacement can affect alignment angles</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify alignment is within specifications after installation</li>
+                  </ul></div>
+                  
+                  <div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">Road test vehicle – verify correct function and operation</div><ul>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Check for unusual noises during acceleration, deceleration, and cornering</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Verify no ABS or traction control warning lights are illuminated</li>
+                    <li className="text-[14px] text-white/60 ml-4 list-disc mb-1">Confirm vehicle tracks straight and handles properly</li>
+                  </ul></div>
+                </div>
+        </div>
+      
+        </div>
+      
+</div>
+</div>
+</div>
+</div>
+</main>
+      <Footer />
+    </div>
+  );
+}
+</file>
+
+<file path="src/App.jsx">
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import TopNav from './components/site/TopNav'
+import HeroVideo from './components/site/HeroVideo'
+import Pillars from './components/site/Pillars'
+import Process from './components/site/Process'
+import DarkContext from './components/site/DarkContext'
+import Stats from './components/site/Stats'
+import Footer from './components/site/Footer'
+
+import AlternatorsPage from './pages/AlternatorsPage'
+import BoostersPage from './pages/BoostersPage'
+import BrakePadsRotorsPage from './pages/BrakePadsRotorsPage'
+import CalipersPage from './pages/CalipersPage'
+import MasterCylindersPage from './pages/MasterCylindersPage'
+import StartersPage from './pages/StartersPage'
+import WheelHubsPage from './pages/WheelHubsPage'
+
+function HomePage() {
+  return (
+    <div className="min-h-screen bg-black font-sans text-white overflow-x-hidden selection:bg-[#ff8a4a]/30 selection:text-white">
+      <TopNav />
+      <main>
+        <HeroVideo />
+        <Pillars />
+        <Process />
+        <DarkContext />
+        <Stats />
+      </main>
+      <Footer />
+    </div>
+  )
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/alternators" element={<AlternatorsPage />} />
+      <Route path="/starters" element={<StartersPage />} />
+      <Route path="/calipers" element={<CalipersPage />} />
+      <Route path="/master-cylinders" element={<MasterCylindersPage />} />
+      <Route path="/brake-pads-rotors" element={<BrakePadsRotorsPage />} />
+      <Route path="/boosters" element={<BoostersPage />} />
+      <Route path="/wheel-hubs" element={<WheelHubsPage />} />
+    </Routes>
+  )
+}
+
+export default App
+</file>
+
+<file path="src/index.css">
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "DM Sans", -apple-system, sans-serif;
+  --font-mono: "DM Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+@layer base {
+  :root {
+    --c-ink: #0a0a0a;
+    --c-ink-2: #141414;
+    --c-cream: #FDFBF7;
+    --c-cream-2: #F3EFE9;
+    --c-cream-3: #efe1d8;
+    --c-blush: #e2b4b4;
+    --bg: #000000;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--c-cream);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 500;
+}
+
+.italic-display {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.font-mono-cap {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 11px;
+}
+
+.glow-bg {
+  background: radial-gradient(100% 100% at 50% 0%, rgba(20, 20, 20, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.grain {
+  position: relative;
+}
+
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Hero specific */
+.hero-wrap {
+  position: relative;
+  height: 200vh;
+}
+.hero-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.hero-tint {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+.hero-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 30%, rgba(0,0,0,0.8) 100%);
+  z-index: 2;
+}
+.cue-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  transition: all 0.3s ease;
+}
+.cue-dot.is-active {
+  background: white;
+  transform: scale(1.5);
+}
+
+.hero-progress-track {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: rgba(255,255,255,0.1);
+}
+.hero-progress-fill {
+  height: 100%;
+  background: white;
+  transform-origin: 0 50%;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 99px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s;
+}
+.pill-light {
+  background: white;
+  color: #0a0a0a;
+}
+.pill-light:hover {
+  background: var(--c-cream-2);
+}
+</file>
+
+<file path="src/main.jsx">
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+import './index.css'
+import App from './App.jsx'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </StrictMode>,
+)
+</file>
+
+<file path=".gitignore">
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+</file>
+
+<file path="convertPages.cjs">
+const fs = require('fs');
+const path = require('path');
+
+const srcDir = '/Users/joem/EverythingAutomotive/ElectroRepairGuide/client/src/pages';
+const destDir = '/Users/joem/EverythingAutomotive/UltraAutomotive/src/pages';
+
+if (!fs.existsSync(destDir)) {
+  fs.mkdirSync(destDir, { recursive: true });
+}
+
+const files = fs.readdirSync(srcDir).filter(f => f.endsWith('Page.tsx') && f !== 'Home.tsx');
+
+files.forEach(file => {
+  const content = fs.readFileSync(path.join(srcDir, file), 'utf-8');
+  
+  const titleMatch = content.match(/<h2[^>]*>(.*?)<\/h2>/);
+  const title = titleMatch ? titleMatch[1] : file.replace('Page.tsx', '');
+  
+  const sections = [];
+  const sectionNames = ['overview', 'preparation', 'diagnosis', 'installation', 'verification'];
+  
+  sectionNames.forEach(sec => {
+    const regex = new RegExp(`{activeSection === "${sec}" && \\(([\\s\\S]*?)\\n\\s*\\)}\\s*(?:{|</section>)`);
+    const match = content.match(regex);
+    if (match) {
+      let secContent = match[1];
+      
+      // Remove exactly the first opening <div ...> and the last </div>
+      secContent = secContent.replace(/^\\s*<div[^>]*>/, '');
+      const lastDivIndex = secContent.lastIndexOf('</div>');
+      if (lastDivIndex !== -1) {
+        secContent = secContent.substring(0, lastDivIndex) + secContent.substring(lastDivIndex + 6);
+      }
+      secContent = secContent.replace(/<h3[^>]*>(.*?)<\/h3>/g, '<h3 className="font-display text-[24px] mb-4 text-white">$1</h3>');
+      secContent = secContent.replace(/<p[^>]*>/g, '<p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">');
+      
+      secContent = secContent.replace(/<InstallationStep title="([^"]+)"(?: \/>|>(.*?)<\/InstallationStep>)/gs, (m, t, inner) => {
+        let res = `<div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">${t}</div>`;
+        if (inner) {
+          let ulContent = inner.replace(/<li[^>]*>(.*?)<\/li>/gs, '<li className="text-[14px] text-white/60 ml-4 list-disc mb-1">$1</li>');
+          res += `<ul>${ulContent}</ul>`;
+        }
+        res += `</div>`;
+        return res;
+      });
+      
+      secContent = secContent.replace(/className="[^"]*text-gray-[^"]*"/g, 'className="text-white/80"');
+      secContent = secContent.replace(/className="[^"]*bg-gray-[^"]*"/g, 'className="bg-transparent"');
+      
+      // Specifically for MasterCylindersPage inner note
+      secContent = secContent.replace(/<div className="p-4 bg-transparent rounded-md border border-gray-200 mb-4">/g, '<div className="p-5 rounded-2xl mb-4" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>');
+      secContent = secContent.replace(/<h4 className="font-semibold mb-2">/g, '<h4 className="font-display text-[16px] text-white mb-2">');
+      secContent = secContent.replace(/<ol className="list-decimal ml-4 space-y-1">/g, '<ol className="list-decimal ml-6 space-y-1 text-[14px] text-white/60 mb-2">');
+      
+      sections.push(`
+        <div className="rounded-3xl p-8 h-full break-inside-avoid mb-6" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          ${secContent.trim()}
+        </div>
+      `);
+    }
+  });
+  
+  const componentName = file.replace('.tsx', '');
+  const displayTitle = title.replace(' Installation Best Practices', '').replace(' Installation', '').replace('Best Practices', '');
+  
+  const jsx = `import React from "react";
+import TopNav from "../components/site/TopNav";
+import Footer from "../components/site/Footer";
+
+export default function ${componentName}() {
+  return (
+    <div className="min-h-screen bg-black font-sans text-white overflow-x-hidden selection:bg-[#ff8a4a]/30 selection:text-white">
+      <TopNav />
+      <main className="pt-32 pb-24 px-5 md:px-10 lg:px-14 max-w-[1400px] mx-auto">
+        <div className="mb-12">
+          <span className="font-mono-cap text-white/50">Quick Guide</span>
+          <h1 className="mt-4 font-display text-white" style={{ fontSize: "clamp(40px, 5vw, 76px)", lineHeight: 0.96, letterSpacing: "-0.03em" }}>
+            ${displayTitle} <span className="italic-display" style={{ color: "#efe1d8" }}>Guide</span>
+          </h1>
+        </div>
+        
+        <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
+          ${sections.join('\n')}
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+`;
+  
+  fs.writeFileSync(path.join(destDir, file.replace('.tsx', '.jsx')), jsx);
+  console.log('Converted', file);
+});
+</file>
+
+<file path="convertPages.js">
+const fs = require('fs');
+const path = require('path');
+
+const srcDir = '/Users/joem/EverythingAutomotive/ElectroRepairGuide/client/src/pages';
+const destDir = '/Users/joem/EverythingAutomotive/UltraAutomotive/src/pages';
+
+if (!fs.existsSync(destDir)) {
+  fs.mkdirSync(destDir, { recursive: true });
+}
+
+const files = fs.readdirSync(srcDir).filter(f => f.endsWith('Page.tsx'));
+
+files.forEach(file => {
+  const content = fs.readFileSync(path.join(srcDir, file), 'utf-8');
+  
+  // Extract Title
+  const titleMatch = content.match(/<h2[^>]*>(.*?)<\/h2>/);
+  const title = titleMatch ? titleMatch[1] : file.replace('Page.tsx', '');
+  
+  // Extract sections
+  const sections = [];
+  const sectionNames = ['overview', 'preparation', 'diagnosis', 'installation', 'verification'];
+  
+  sectionNames.forEach(sec => {
+    // Look for content inside {activeSection === "sec" && ( ... )}
+    const regex = new RegExp(`{activeSection === "${sec}" && \\(([\\s\\S]*?)\\n\\s*\\)}\\s*(?:{|</section>)`);
+    const match = content.match(regex);
+    if (match) {
+      let secContent = match[1];
+      // remove outer div
+      secContent = secContent.replace(/^<div[^>]*>/, '').replace(/<\/div>$/, '');
+      // replace h3 with a stylized header
+      secContent = secContent.replace(/<h3[^>]*>(.*?)<\/h3>/g, '<h3 className="font-display text-[24px] mb-4 text-white">$1</h3>');
+      // replace p tags
+      secContent = secContent.replace(/<p[^>]*>/g, '<p className="text-[14.5px] text-white/60 mb-4 leading-relaxed">');
+      // replace InstallationStep
+      secContent = secContent.replace(/<InstallationStep title="([^"]+)"(?: \/>|>(.*?)<\/InstallationStep>)/gs, (m, t, inner) => {
+        let res = `<div className="mb-4 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}><div className="font-display text-[16px] text-white mb-2">${t}</div>`;
+        if (inner) {
+          let ulContent = inner.replace(/<li[^>]*>(.*?)<\/li>/gs, '<li className="text-[14px] text-white/60 ml-4 list-disc mb-1">$1</li>');
+          res += `<ul>${ulContent}</ul>`;
+        }
+        res += `</div>`;
+        return res;
+      });
+      // specific fixes for other custom components like tables
+      secContent = secContent.replace(/className="[^"]*text-gray-[^"]*"/g, 'className="text-white/80"');
+      secContent = secContent.replace(/className="[^"]*bg-gray-[^"]*"/g, 'className="bg-transparent"');
+      
+      sections.push(`
+        <div className="rounded-3xl p-8" style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)" }}>
+          ${secContent.trim()}
+        </div>
+      `);
+    }
+  });
+  
+  const componentName = file.replace('.tsx', '');
+  const jsx = `import React from "react";
+import TopNav from "../components/site/TopNav";
+import Footer from "../components/site/Footer";
+
+export default function ${componentName}() {
+  return (
+    <div className="min-h-screen bg-black font-sans text-white overflow-x-hidden selection:bg-[#ff8a4a]/30 selection:text-white">
+      <TopNav />
+      <main className="pt-32 pb-24 px-5 md:px-10 lg:px-14 max-w-[1400px] mx-auto">
+        <div className="mb-12">
+          <span className="font-mono-cap text-white/50">Quick Guide</span>
+          <h1 className="mt-4 font-display text-white" style={{ fontSize: "clamp(40px, 5vw, 76px)", lineHeight: 0.96, letterSpacing: "-0.03em" }}>
+            ${title.replace(' Installation Best Practices', '').replace(' Installation', '')} <span className="italic-display" style={{ color: "#efe1d8" }}>Guide</span>
+          </h1>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+          ${sections.join('\\n')}
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+`;
+  
+  fs.writeFileSync(path.join(destDir, file.replace('.tsx', '.jsx')), jsx);
+  console.log('Converted', file);
+});
+</file>
+
+<file path="eslint.config.js">
+import js from '@eslint/js'
+import globals from 'globals'
+import reactHooks from 'eslint-plugin-react-hooks'
+import reactRefresh from 'eslint-plugin-react-refresh'
+import { defineConfig, globalIgnores } from 'eslint/config'
+
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{js,jsx}'],
+    extends: [
+      js.configs.recommended,
+      reactHooks.configs.flat.recommended,
+      reactRefresh.configs.vite,
+    ],
+    languageOptions: {
+      globals: globals.browser,
+      parserOptions: { ecmaFeatures: { jsx: true } },
+    },
+  },
+])
+</file>
+
+<file path="fixDivs.cjs">
+const fs = require('fs');
+const path = require('path');
+
+const dir = '/Users/joem/EverythingAutomotive/UltraAutomotive/src/pages';
+const files = fs.readdirSync(dir).filter(f => f.endsWith('.jsx'));
+
+files.forEach(file => {
+  let content = fs.readFileSync(path.join(dir, file), 'utf-8');
+  
+  // Count '<div' and '</div'
+  const divOpens = (content.match(/<div/g) || []).length;
+  const divCloses = (content.match(/<\/div>/g) || []).length;
+  
+  const diff = divOpens - divCloses;
+  
+  if (diff > 0) {
+    // missing closes
+    const closes = '\n</div>'.repeat(diff);
+    content = content.replace('</main>', closes + '\n</main>');
+  } else if (diff < 0) {
+    console.log(file, 'has too many closes', diff);
+  }
+  
+  fs.writeFileSync(path.join(dir, file), content);
+  console.log('Fixed', file, diff);
+});
+</file>
+
+<file path="fixDivs.js">
+const fs = require('fs');
+const path = require('path');
+
+const dir = '/Users/joem/EverythingAutomotive/UltraAutomotive/src/pages';
+const files = fs.readdirSync(dir).filter(f => f.endsWith('.jsx'));
+
+files.forEach(file => {
+  let content = fs.readFileSync(path.join(dir, file), 'utf-8');
+  
+  // Count '<div' and '</div'
+  const divOpens = (content.match(/<div/g) || []).length;
+  const divCloses = (content.match(/<\/div>/g) || []).length;
+  
+  const diff = divOpens - divCloses;
+  
+  if (diff > 0) {
+    // missing closes
+    const closes = '</div>\n'.repeat(diff);
+    content = content.replace('</main>', closes + '</main>');
+  } else if (diff < 0) {
+    // too many closes
+    // this might be trickier, but let's see if we have this problem
+    console.log(file, 'has too many closes', diff);
+  }
+  
+  fs.writeFileSync(path.join(dir, file), content);
+  console.log('Fixed', file, diff);
+});
+</file>
+
+<file path="index.html">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALL AI AUTOMOTIVE</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+</file>
+
+<file path="package.json">
+{
+  "name": "ultraautomotive",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "autoprefixer": "^10.5.0",
+    "lucide-react": "^1.14.0",
+    "postcss": "^8.5.14",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^7.15.0",
+    "tailwindcss": "^4.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "esbuild": "^0.28.0",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "vite": "^8.0.10"
+  }
+}
+</file>
+
+<file path="README.md">
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+</file>
+
+<file path="vite.config.js">
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+})
+</file>
+
+</files>
