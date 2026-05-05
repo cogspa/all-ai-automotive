@@ -1,5 +1,5 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import TopNav from './components/site/TopNav'
 import HeroVideo from './components/site/HeroVideo'
 import Pillars from './components/site/Pillars'
@@ -32,9 +32,21 @@ function HomePage() {
   )
 }
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
-    <Routes>
+    <>
+      <ScrollToTop />
+      <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/alternators" element={<AlternatorsPage />} />
       <Route path="/starters" element={<StartersPage />} />
@@ -44,6 +56,7 @@ function App() {
       <Route path="/boosters" element={<BoostersPage />} />
       <Route path="/wheel-hubs" element={<WheelHubsPage />} />
     </Routes>
+    </>
   )
 }
 
