@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Plus, ArrowRight } from "lucide-react";
 
 const NAV = [
-  { label: "Quick Guides", href: "#guides" },
-  { label: "Knowledge Hub", href: "#search" },
-  { label: "Recalls", href: "#recalls" },
+  { label: "Quick Guides", href: "/#guides" },
+  { label: "Knowledge Hub", href: "/#process" },
+  { label: "Recalls", href: "/#recalls" },
 ];
 
 export default function TopNav() {
@@ -24,7 +24,7 @@ export default function TopNav() {
     >
       <div className="flex items-start justify-between gap-3 px-5 md:px-8 pt-5 md:pt-6">
         <a
-          href="#top"
+          href="/"
           data-testid="brand-mark"
           className="pointer-events-auto flex items-center gap-2.5 group"
         >
