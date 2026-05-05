@@ -1,0 +1,22 @@
+{
+  "name": "ultra-automotive",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "YMM-aware automotive diagnostic and installation knowledge base — NHTSA-integrated, fuzzy search, differentiated bulletin pages.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "migrate": "node scripts/migrate.cjs",
+    "generate": "node scripts/generateHtmlBulletins.cjs",
+    "rebuild-content": "npm run migrate && npm run generate",
+    "validate-makes": "node scripts/validate-makes.cjs"
+  },
+  "dependencies": {
+    "fuse.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

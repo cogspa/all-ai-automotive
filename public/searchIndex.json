@@ -1,0 +1,2658 @@
+[
+  {
+    "id": "TBS0131",
+    "type": "installation",
+    "title": "Starter Installation Guide #131",
+    "partType": "starter",
+    "partCategory": "engine-electrical",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 45,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "A new vehicle harness end is already installed on your replacement starter.",
+    "tools": [
+      {
+        "name": "Metric socket set",
+        "required": true,
+        "note": "Most starters use 12mm, 14mm, 17mm"
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Battery terminal puller",
+        "required": false
+      },
+      {
+        "name": "Penetrating oil",
+        "required": false,
+        "note": "For corroded mounting bolts"
+      }
+    ],
+    "parts": [
+      {
+        "name": "Replacement starter",
+        "quantity": 1
+      },
+      {
+        "name": "Battery terminal cleaner / dielectric grease",
+        "quantity": 1
+      },
+      {
+        "name": "Starter shim kit",
+        "quantity": 1,
+        "note": "Only if specified by manufacturer"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Disconnect battery",
+        "instruction": "Remove the negative battery cable first. Wait 5 minutes for capacitors to discharge if the vehicle has airbags."
+      },
+      {
+        "title": "Compare old vs new",
+        "instruction": "Lay both starters side by side. Verify pinion gear tooth count, drive direction, mounting bolt pattern, and solenoid terminal positions match.",
+        "warning": "A new starter that 'looks different' may still be correct — match function not appearance."
+      },
+      {
+        "title": "Remove electrical connections",
+        "instruction": "Mark and remove the B+ cable (large terminal) and S wire (small terminal). Photograph the routing before disconnecting."
+      },
+      {
+        "title": "Remove mounting bolts",
+        "instruction": "Support the starter as you remove the final bolt — most weigh 8–15 lbs and will fall."
+      },
+      {
+        "title": "Inspect the flywheel ring gear",
+        "instruction": "Rotate the engine by hand and check every tooth visible through the starter opening. Damaged teeth will destroy the new starter within minutes.",
+        "spec": "No chipped, rounded, or missing teeth"
+      },
+      {
+        "title": "Clean the mounting surface",
+        "instruction": "Wire-brush the engine block where the starter mounts. The starter grounds through this surface — corrosion here causes slow cranking."
+      },
+      {
+        "title": "Test-fit the new starter",
+        "instruction": "Verify the pinion gear-to-flywheel clearance with a 1/8\" drill bit shank between a flywheel tooth and the pinion. Add or remove shims as needed.",
+        "spec": "0.020\" – 0.060\" (1/8\" drill bit shank)"
+      },
+      {
+        "title": "Install and torque mounting bolts",
+        "instruction": "Snug all bolts before final torque. Torque in a cross-pattern if there are 3+ bolts."
+      },
+      {
+        "title": "Reconnect electrical",
+        "instruction": "B+ cable first, then S wire. Apply dielectric grease to terminals. Torque the B+ nut to spec — overtightening cracks the solenoid housing.",
+        "spec": "B+ nut: 80–100 in-lb typical"
+      },
+      {
+        "title": "Reconnect battery and test",
+        "instruction": "Negative cable last. Crank the engine — it should start within 2 seconds with no abnormal sound."
+      }
+    ],
+    "torqueSpecs": [
+      {
+        "fastener": "Starter mounting bolts (8mm)",
+        "value": 17,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "Starter mounting bolts (10mm)",
+        "value": 33,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "Starter mounting bolts (12mm)",
+        "value": 47,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "B+ terminal nut",
+        "value": 90,
+        "unit": "in-lb"
+      },
+      {
+        "fastener": "S terminal nut",
+        "value": 25,
+        "unit": "in-lb"
+      }
+    ],
+    "warnings": [
+      "Disconnect the negative battery cable before any work — accidental contact between the B+ cable and ground will weld tools and start fires.",
+      "Never strike a modern PMGR (permanent magnet gear reduction) starter with a hammer. The ceramic magnets inside will shatter and the starter will fail within minutes.",
+      "Do not crank the engine for more than 15 seconds continuously — starter windings overheat quickly. Wait 2 minutes between attempts."
+    ],
+    "tips": [
+      "If the new starter sounds 'different' from the old one, it's normal. PMGR starters spin faster and sound higher-pitched than older direct-drive units.",
+      "Save the old starter core — most parts stores charge a $20–50 core deposit that's refunded on return.",
+      "On Nissan vehicles, intermittent no-crank is more often the BCM or relay than the starter itself. Test both before condemning the starter."
+    ],
+    "relatedBulletins": [
+      "TBS0125",
+      "TBS0117",
+      "TBS0140"
+    ],
+    "pdfLink": "/html_bulletins/TBS0131.html"
+  },
+  {
+    "id": "TBS0125",
+    "type": "installation",
+    "title": "Nissan Starter Installation Guide #125",
+    "partType": "starter",
+    "partCategory": "engine-electrical",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 45,
+    "lastUpdated": "2026-04-28",
+    "applicability": [
+      {
+        "make": "Nissan",
+        "yearStart": 1995,
+        "yearEnd": 9999,
+        "notes": "Auto-detected from legacy summary — verify before relying"
+      }
+    ],
+    "summary": "Nissan starting symptom malfunctions may NOT be caused by the starter.",
+    "tools": [
+      {
+        "name": "Metric socket set",
+        "required": true,
+        "note": "Most starters use 12mm, 14mm, 17mm"
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Battery terminal puller",
+        "required": false
+      },
+      {
+        "name": "Penetrating oil",
+        "required": false,
+        "note": "For corroded mounting bolts"
+      }
+    ],
+    "parts": [
+      {
+        "name": "Replacement starter",
+        "quantity": 1
+      },
+      {
+        "name": "Battery terminal cleaner / dielectric grease",
+        "quantity": 1
+      },
+      {
+        "name": "Starter shim kit",
+        "quantity": 1,
+        "note": "Only if specified by manufacturer"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Disconnect battery",
+        "instruction": "Remove the negative battery cable first. Wait 5 minutes for capacitors to discharge if the vehicle has airbags."
+      },
+      {
+        "title": "Compare old vs new",
+        "instruction": "Lay both starters side by side. Verify pinion gear tooth count, drive direction, mounting bolt pattern, and solenoid terminal positions match.",
+        "warning": "A new starter that 'looks different' may still be correct — match function not appearance."
+      },
+      {
+        "title": "Remove electrical connections",
+        "instruction": "Mark and remove the B+ cable (large terminal) and S wire (small terminal). Photograph the routing before disconnecting."
+      },
+      {
+        "title": "Remove mounting bolts",
+        "instruction": "Support the starter as you remove the final bolt — most weigh 8–15 lbs and will fall."
+      },
+      {
+        "title": "Inspect the flywheel ring gear",
+        "instruction": "Rotate the engine by hand and check every tooth visible through the starter opening. Damaged teeth will destroy the new starter within minutes.",
+        "spec": "No chipped, rounded, or missing teeth"
+      },
+      {
+        "title": "Clean the mounting surface",
+        "instruction": "Wire-brush the engine block where the starter mounts. The starter grounds through this surface — corrosion here causes slow cranking."
+      },
+      {
+        "title": "Test-fit the new starter",
+        "instruction": "Verify the pinion gear-to-flywheel clearance with a 1/8\" drill bit shank between a flywheel tooth and the pinion. Add or remove shims as needed.",
+        "spec": "0.020\" – 0.060\" (1/8\" drill bit shank)"
+      },
+      {
+        "title": "Install and torque mounting bolts",
+        "instruction": "Snug all bolts before final torque. Torque in a cross-pattern if there are 3+ bolts."
+      },
+      {
+        "title": "Reconnect electrical",
+        "instruction": "B+ cable first, then S wire. Apply dielectric grease to terminals. Torque the B+ nut to spec — overtightening cracks the solenoid housing.",
+        "spec": "B+ nut: 80–100 in-lb typical"
+      },
+      {
+        "title": "Reconnect battery and test",
+        "instruction": "Negative cable last. Crank the engine — it should start within 2 seconds with no abnormal sound."
+      }
+    ],
+    "torqueSpecs": [
+      {
+        "fastener": "Starter mounting bolts (8mm)",
+        "value": 17,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "Starter mounting bolts (10mm)",
+        "value": 33,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "Starter mounting bolts (12mm)",
+        "value": 47,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "B+ terminal nut",
+        "value": 90,
+        "unit": "in-lb"
+      },
+      {
+        "fastener": "S terminal nut",
+        "value": 25,
+        "unit": "in-lb"
+      }
+    ],
+    "warnings": [
+      "Disconnect the negative battery cable before any work — accidental contact between the B+ cable and ground will weld tools and start fires.",
+      "Never strike a modern PMGR (permanent magnet gear reduction) starter with a hammer. The ceramic magnets inside will shatter and the starter will fail within minutes.",
+      "Do not crank the engine for more than 15 seconds continuously — starter windings overheat quickly. Wait 2 minutes between attempts."
+    ],
+    "tips": [
+      "If the new starter sounds 'different' from the old one, it's normal. PMGR starters spin faster and sound higher-pitched than older direct-drive units.",
+      "Save the old starter core — most parts stores charge a $20–50 core deposit that's refunded on return.",
+      "On Nissan vehicles, intermittent no-crank is more often the BCM or relay than the starter itself. Test both before condemning the starter."
+    ],
+    "relatedBulletins": [
+      "TBS0131",
+      "TBS0117",
+      "TBS0140"
+    ],
+    "pdfLink": "/html_bulletins/TBS0125.html"
+  },
+  {
+    "id": "TBS0117",
+    "type": "installation",
+    "title": "Starter Installation Guide #117",
+    "partType": "starter",
+    "partCategory": "engine-electrical",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 45,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Remove the inspection cover and measure the clearance between the top of a flywheel tooth and the starter armature shaft by inserting \"aie 1/8\" Drill the back end of a 1/8\" drill Bit bit.",
+    "tools": [
+      {
+        "name": "Metric socket set",
+        "required": true,
+        "note": "Most starters use 12mm, 14mm, 17mm"
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Battery terminal puller",
+        "required": false
+      },
+      {
+        "name": "Penetrating oil",
+        "required": false,
+        "note": "For corroded mounting bolts"
+      }
+    ],
+    "parts": [
+      {
+        "name": "Replacement starter",
+        "quantity": 1
+      },
+      {
+        "name": "Battery terminal cleaner / dielectric grease",
+        "quantity": 1
+      },
+      {
+        "name": "Starter shim kit",
+        "quantity": 1,
+        "note": "Only if specified by manufacturer"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Disconnect battery",
+        "instruction": "Remove the negative battery cable first. Wait 5 minutes for capacitors to discharge if the vehicle has airbags."
+      },
+      {
+        "title": "Compare old vs new",
+        "instruction": "Lay both starters side by side. Verify pinion gear tooth count, drive direction, mounting bolt pattern, and solenoid terminal positions match.",
+        "warning": "A new starter that 'looks different' may still be correct — match function not appearance."
+      },
+      {
+        "title": "Remove electrical connections",
+        "instruction": "Mark and remove the B+ cable (large terminal) and S wire (small terminal). Photograph the routing before disconnecting."
+      },
+      {
+        "title": "Remove mounting bolts",
+        "instruction": "Support the starter as you remove the final bolt — most weigh 8–15 lbs and will fall."
+      },
+      {
+        "title": "Inspect the flywheel ring gear",
+        "instruction": "Rotate the engine by hand and check every tooth visible through the starter opening. Damaged teeth will destroy the new starter within minutes.",
+        "spec": "No chipped, rounded, or missing teeth"
+      },
+      {
+        "title": "Clean the mounting surface",
+        "instruction": "Wire-brush the engine block where the starter mounts. The starter grounds through this surface — corrosion here causes slow cranking."
+      },
+      {
+        "title": "Test-fit the new starter",
+        "instruction": "Verify the pinion gear-to-flywheel clearance with a 1/8\" drill bit shank between a flywheel tooth and the pinion. Add or remove shims as needed.",
+        "spec": "0.020\" – 0.060\" (1/8\" drill bit shank)"
+      },
+      {
+        "title": "Install and torque mounting bolts",
+        "instruction": "Snug all bolts before final torque. Torque in a cross-pattern if there are 3+ bolts."
+      },
+      {
+        "title": "Reconnect electrical",
+        "instruction": "B+ cable first, then S wire. Apply dielectric grease to terminals. Torque the B+ nut to spec — overtightening cracks the solenoid housing.",
+        "spec": "B+ nut: 80–100 in-lb typical"
+      },
+      {
+        "title": "Reconnect battery and test",
+        "instruction": "Negative cable last. Crank the engine — it should start within 2 seconds with no abnormal sound."
+      }
+    ],
+    "torqueSpecs": [
+      {
+        "fastener": "Starter mounting bolts (8mm)",
+        "value": 17,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "Starter mounting bolts (10mm)",
+        "value": 33,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "Starter mounting bolts (12mm)",
+        "value": 47,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "B+ terminal nut",
+        "value": 90,
+        "unit": "in-lb"
+      },
+      {
+        "fastener": "S terminal nut",
+        "value": 25,
+        "unit": "in-lb"
+      }
+    ],
+    "warnings": [
+      "Disconnect the negative battery cable before any work — accidental contact between the B+ cable and ground will weld tools and start fires.",
+      "Never strike a modern PMGR (permanent magnet gear reduction) starter with a hammer. The ceramic magnets inside will shatter and the starter will fail within minutes.",
+      "Do not crank the engine for more than 15 seconds continuously — starter windings overheat quickly. Wait 2 minutes between attempts."
+    ],
+    "tips": [
+      "If the new starter sounds 'different' from the old one, it's normal. PMGR starters spin faster and sound higher-pitched than older direct-drive units.",
+      "Save the old starter core — most parts stores charge a $20–50 core deposit that's refunded on return.",
+      "On Nissan vehicles, intermittent no-crank is more often the BCM or relay than the starter itself. Test both before condemning the starter."
+    ],
+    "relatedBulletins": [
+      "TBS0131",
+      "TBS0125",
+      "TBS0140"
+    ],
+    "pdfLink": "/html_bulletins/TBS0117.html"
+  },
+  {
+    "id": "TBS0140",
+    "type": "installation",
+    "title": "Starter Installation Guide #140",
+    "partType": "starter",
+    "partCategory": "engine-electrical",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 45,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "The replacement starter in the box may look different than the original.",
+    "tools": [
+      {
+        "name": "Metric socket set",
+        "required": true,
+        "note": "Most starters use 12mm, 14mm, 17mm"
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Battery terminal puller",
+        "required": false
+      },
+      {
+        "name": "Penetrating oil",
+        "required": false,
+        "note": "For corroded mounting bolts"
+      }
+    ],
+    "parts": [
+      {
+        "name": "Replacement starter",
+        "quantity": 1
+      },
+      {
+        "name": "Battery terminal cleaner / dielectric grease",
+        "quantity": 1
+      },
+      {
+        "name": "Starter shim kit",
+        "quantity": 1,
+        "note": "Only if specified by manufacturer"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Disconnect battery",
+        "instruction": "Remove the negative battery cable first. Wait 5 minutes for capacitors to discharge if the vehicle has airbags."
+      },
+      {
+        "title": "Compare old vs new",
+        "instruction": "Lay both starters side by side. Verify pinion gear tooth count, drive direction, mounting bolt pattern, and solenoid terminal positions match.",
+        "warning": "A new starter that 'looks different' may still be correct — match function not appearance."
+      },
+      {
+        "title": "Remove electrical connections",
+        "instruction": "Mark and remove the B+ cable (large terminal) and S wire (small terminal). Photograph the routing before disconnecting."
+      },
+      {
+        "title": "Remove mounting bolts",
+        "instruction": "Support the starter as you remove the final bolt — most weigh 8–15 lbs and will fall."
+      },
+      {
+        "title": "Inspect the flywheel ring gear",
+        "instruction": "Rotate the engine by hand and check every tooth visible through the starter opening. Damaged teeth will destroy the new starter within minutes.",
+        "spec": "No chipped, rounded, or missing teeth"
+      },
+      {
+        "title": "Clean the mounting surface",
+        "instruction": "Wire-brush the engine block where the starter mounts. The starter grounds through this surface — corrosion here causes slow cranking."
+      },
+      {
+        "title": "Test-fit the new starter",
+        "instruction": "Verify the pinion gear-to-flywheel clearance with a 1/8\" drill bit shank between a flywheel tooth and the pinion. Add or remove shims as needed.",
+        "spec": "0.020\" – 0.060\" (1/8\" drill bit shank)"
+      },
+      {
+        "title": "Install and torque mounting bolts",
+        "instruction": "Snug all bolts before final torque. Torque in a cross-pattern if there are 3+ bolts."
+      },
+      {
+        "title": "Reconnect electrical",
+        "instruction": "B+ cable first, then S wire. Apply dielectric grease to terminals. Torque the B+ nut to spec — overtightening cracks the solenoid housing.",
+        "spec": "B+ nut: 80–100 in-lb typical"
+      },
+      {
+        "title": "Reconnect battery and test",
+        "instruction": "Negative cable last. Crank the engine — it should start within 2 seconds with no abnormal sound."
+      }
+    ],
+    "torqueSpecs": [
+      {
+        "fastener": "Starter mounting bolts (8mm)",
+        "value": 17,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "Starter mounting bolts (10mm)",
+        "value": 33,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "Starter mounting bolts (12mm)",
+        "value": 47,
+        "unit": "ft-lb"
+      },
+      {
+        "fastener": "B+ terminal nut",
+        "value": 90,
+        "unit": "in-lb"
+      },
+      {
+        "fastener": "S terminal nut",
+        "value": 25,
+        "unit": "in-lb"
+      }
+    ],
+    "warnings": [
+      "Disconnect the negative battery cable before any work — accidental contact between the B+ cable and ground will weld tools and start fires.",
+      "Never strike a modern PMGR (permanent magnet gear reduction) starter with a hammer. The ceramic magnets inside will shatter and the starter will fail within minutes.",
+      "Do not crank the engine for more than 15 seconds continuously — starter windings overheat quickly. Wait 2 minutes between attempts."
+    ],
+    "tips": [
+      "If the new starter sounds 'different' from the old one, it's normal. PMGR starters spin faster and sound higher-pitched than older direct-drive units.",
+      "Save the old starter core — most parts stores charge a $20–50 core deposit that's refunded on return.",
+      "On Nissan vehicles, intermittent no-crank is more often the BCM or relay than the starter itself. Test both before condemning the starter."
+    ],
+    "relatedBulletins": [
+      "TBS0131",
+      "TBS0125",
+      "TBS0117"
+    ],
+    "pdfLink": "/html_bulletins/TBS0140.html"
+  },
+  {
+    "id": "TBA0028",
+    "type": "diagnostic",
+    "title": "General Procedure Diagnostic Guide #28",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "System operating outside expected parameters",
+    "symptoms": [
+      "System operating outside expected parameters",
+      "Warning indicator illuminated on dashboard",
+      "Performance, efficiency, or comfort degradation"
+    ],
+    "causes": [
+      "Sensor or actuator out of specification",
+      "Wiring or connector fault",
+      "Mechanical wear or component failure",
+      "Software / calibration issue requiring TSB"
+    ],
+    "tools": [
+      {
+        "name": "OBD-II scan tool with bidirectional control",
+        "required": true
+      },
+      {
+        "name": "Digital multimeter",
+        "required": true
+      },
+      {
+        "name": "Vehicle service manual",
+        "required": true
+      }
+    ],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0132",
+      "TBS0003",
+      "TBS0017",
+      "TBS0028"
+    ],
+    "pdfLink": "/html_bulletins/TBA0028.html"
+  },
+  {
+    "id": "TBA0132",
+    "type": "diagnostic",
+    "title": "General Procedure Diagnostic Guide #132",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "System operating outside expected parameters",
+    "symptoms": [
+      "System operating outside expected parameters",
+      "Warning indicator illuminated on dashboard",
+      "Performance, efficiency, or comfort degradation"
+    ],
+    "causes": [
+      "Sensor or actuator out of specification",
+      "Wiring or connector fault",
+      "Mechanical wear or component failure",
+      "Software / calibration issue requiring TSB"
+    ],
+    "tools": [
+      {
+        "name": "OBD-II scan tool with bidirectional control",
+        "required": true
+      },
+      {
+        "name": "Digital multimeter",
+        "required": true
+      },
+      {
+        "name": "Vehicle service manual",
+        "required": true
+      }
+    ],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBS0003",
+      "TBS0017",
+      "TBS0028"
+    ],
+    "pdfLink": "/html_bulletins/TBA0132.html"
+  },
+  {
+    "id": "TBS0003",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #3",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0017",
+      "TBS0028"
+    ],
+    "pdfLink": "/html_bulletins/TBS0003.html"
+  },
+  {
+    "id": "TBS0017",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #17",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0028"
+    ],
+    "pdfLink": "/html_bulletins/TBS0017.html"
+  },
+  {
+    "id": "TBS0028",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #28",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0028.html"
+  },
+  {
+    "id": "TBS0050",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #50",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0050.html"
+  },
+  {
+    "id": "TBS0054",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #54",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0054.html"
+  },
+  {
+    "id": "TBS0056",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #56",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0056.html"
+  },
+  {
+    "id": "TBS0058",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #58",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0058.html"
+  },
+  {
+    "id": "TBS0060",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #60",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0060.html"
+  },
+  {
+    "id": "TBS0066",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #66",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0066.html"
+  },
+  {
+    "id": "TBS0071",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #71",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0071.html"
+  },
+  {
+    "id": "TBS0073",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #73",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0073.html"
+  },
+  {
+    "id": "TBS0077",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #77",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0077.html"
+  },
+  {
+    "id": "TBS0082",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #82",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0082.html"
+  },
+  {
+    "id": "TBS0089",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #89",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0089.html"
+  },
+  {
+    "id": "TBS0091",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #91",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0091.html"
+  },
+  {
+    "id": "TBS0092",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #92",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0092.html"
+  },
+  {
+    "id": "TBS0101",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #101",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0101.html"
+  },
+  {
+    "id": "TBS0103",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #103",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0103.html"
+  },
+  {
+    "id": "TBS0104",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #104",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0104.html"
+  },
+  {
+    "id": "TBS0112",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #112",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0112.html"
+  },
+  {
+    "id": "TBS0114",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #114",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0114.html"
+  },
+  {
+    "id": "TBS0119",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #119",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0119.html"
+  },
+  {
+    "id": "TBS0121",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #121",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0121.html"
+  },
+  {
+    "id": "TBS0128",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #128",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0128.html"
+  },
+  {
+    "id": "TBS0129",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #129",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0129.html"
+  },
+  {
+    "id": "TBS0133",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #133",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0133.html"
+  },
+  {
+    "id": "TBS0134",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #134",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0134.html"
+  },
+  {
+    "id": "TBS0136",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #136",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0136.html"
+  },
+  {
+    "id": "TBS0138",
+    "type": "installation",
+    "title": "General Procedure Installation Guide #138",
+    "partType": "general",
+    "partCategory": "general",
+    "difficulty": "intermediate",
+    "estTimeMinutes": 60,
+    "lastUpdated": "2026-04-28",
+    "applicability": [],
+    "summary": "Procedures vary significantly between vehicle platforms",
+    "tools": [
+      {
+        "name": "Vehicle-specific service manual",
+        "required": true
+      },
+      {
+        "name": "Torque wrench",
+        "required": true
+      },
+      {
+        "name": "Standard mechanic's hand tools",
+        "required": true
+      }
+    ],
+    "parts": [],
+    "steps": [
+      {
+        "title": "Reference the service manual",
+        "instruction": "Procedures vary significantly between vehicle platforms. Always reference the factory service manual for your specific vehicle."
+      },
+      {
+        "title": "Disconnect the battery",
+        "instruction": "Negative cable first. Wait 5 minutes for capacitors to discharge before working on electrical components."
+      },
+      {
+        "title": "Document existing configuration",
+        "instruction": "Photograph wiring routing, hose connections, and bracket arrangements before disassembly."
+      },
+      {
+        "title": "Perform the procedure per service manual",
+        "instruction": "Follow the manufacturer sequence exactly — many procedures have steps that are non-obvious but critical."
+      },
+      {
+        "title": "Verify torque specifications",
+        "instruction": "Confirm every fastener torque against the service manual. Generic 'feels tight' values cause comebacks."
+      },
+      {
+        "title": "Test before declaring complete",
+        "instruction": "Verify the original symptom is resolved AND no new issues have been introduced."
+      }
+    ],
+    "torqueSpecs": [],
+    "warnings": [
+      "Wear appropriate PPE — safety glasses minimum, gloves for chemical exposure.",
+      "Never work under a vehicle supported only by a jack. Use rated jack stands on factory lift points."
+    ],
+    "tips": [
+      "When the symptom doesn't match your diagnosis, the diagnosis is wrong — not the symptom. Re-test before replacing parts.",
+      "Always check for TSBs before replacing expensive components. The fix is often a reflash or revised part."
+    ],
+    "relatedBulletins": [
+      "TBA0028",
+      "TBA0132",
+      "TBS0003",
+      "TBS0017"
+    ],
+    "pdfLink": "/html_bulletins/TBS0138.html"
+  }
+]

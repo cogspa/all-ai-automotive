@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starters Quick Guide | ALL AI AUTOMOTIVE</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono&family=Manrope:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0a;
+  --surface: #141414;
+  --surface-2: #1c1c1c;
+  --text: #ededed;
+  --text-dim: #999;
+  --accent: #e52e2e;
+  --warn: #f5a623;
+  --ok: #4caf50;
+  --border: rgba(255,255,255,0.08);
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1.65;
+  padding: 3rem 1.5rem 6rem;
+}
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+}
+.crumb {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-dim);
+  margin-bottom: 1.5rem;
+}
+.crumb a { color: var(--text-dim); text-decoration: none; border-bottom: 1px solid transparent; }
+.crumb a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+.header {
+  border-top: 4px solid var(--accent);
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+}
+h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  letter-spacing: 0.5px;
+  line-height: 1.0;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+p {
+  font-size: 1.15rem;
+  color: var(--text-dim);
+  max-width: 70ch;
+  margin-bottom: 1.5rem;
+}
+.section { margin-bottom: 3rem; }
+h2 {
+  font-family: var(--font-display);
+  font-size: 1.85rem;
+  letter-spacing: 1px;
+  color: var(--accent);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.step-list { list-style: none; padding: 0; counter-reset: step; }
+.step {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.step-num {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  color: var(--accent);
+  line-height: 1;
+}
+.step-title { font-family: var(--font-display); font-size: 1.4rem; letter-spacing: 0.5px; margin-bottom: 0.5rem; }
+.styled-list { list-style: none; padding: 0; }
+.styled-list li {
+  position: relative;
+  padding: 0.65rem 0 0.65rem 2.25rem;
+  border-bottom: 1px solid var(--border);
+  color: #d0d0d0;
+}
+.styled-list li:last-child { border-bottom: none; }
+.styled-list li::before { content: '→'; position: absolute; left: 0; color: var(--accent); font-weight: bold; }
+.back-link {
+  display: inline-block;
+  margin-top: 3rem;
+  color: var(--bg);
+  background: var(--text);
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-family: var(--font-display); letter-spacing: 2px;
+  transition: background 0.2s;
+}
+.back-link:hover { background: var(--accent); color: white; }
+@media (max-width: 600px) {
+  .step { grid-template-columns: 1fr; gap: 0.5rem; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="crumb">
+    <a href="/">ALL AI AUTOMOTIVE</a> / QUICK GUIDES / STARTERS
+  </div>
+  <div class="header">
+    <h1>Starters Quick Guide</h1>
+  </div>
+  
+<section class="section">
+  <h2>Starter Installation Overview</h2>
+  <p>Proper installation of a starter motor is crucial for reliable vehicle starting and prevention of premature failures. This guide provides step-by-step instructions for correctly diagnosing starter issues and ensuring proper installation of a replacement unit.</p>
+  <p>The starter motor is responsible for cranking the engine during the starting process. A failing starter can cause no-start conditions, intermittent starting, or unusual noises during cranking. Following these best practices will help ensure a successful installation and prevent early component failure.</p>
+</section>
+
+<section class="section">
+  <h2>Vehicle Preparation</h2>
+  <ol class="step-list">
+    <li class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <div class="step-title">Refer to vehicle service information for any special testing, removal, or installation procedures</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Check for any related technical service bulletins</li>
+          <li style="margin-bottom: 0.2rem;">Refer to any warning tags or technical bulletins included in the box with the replacement part</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <div class="step-title">Verify that battery state of charge is a minimum of 12.45 volts</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Charge battery as needed</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <div class="step-title">Perform load test on battery to determine state of health</div>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">4</div>
+      <div class="step-body">
+        <div class="step-title">Visually inspect battery cables for corrosion</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Perform voltage drop tests on positive/negative cables</li>
+          <li style="margin-bottom: 0.2rem;">Replace cables as needed</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">5</div>
+      <div class="step-body">
+        <div class="step-title">Check for fluid leaks that may have caused the current failure</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Engine oil, coolant, etc.</li>
+          <li style="margin-bottom: 0.2rem;">Repair or replace source of the fluid leak</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section class="section">
+  <h2>Starter Diagnosis Steps</h2>
+  <ol class="step-list">
+    <li class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <div class="step-title">Turn the ignition on but do not start the engine and observe the instrument cluster for warning lights</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Are there any anti-theft, security lights or messages displayed?</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <div class="step-title">Connect scan tool and scan all modules for related diagnostic trouble codes (DTC)</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Follow service information to correct associated DTC</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <div class="step-title">Proceed if it is determined that the starter has failed and needs replacement</div>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">4</div>
+      <div class="step-body">
+        <div class="step-title">Obtain all vehicle info to ensure correct part application</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Make, year, model, engine, equipment/option packages, etc.</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">5</div>
+      <div class="step-body">
+        <div class="step-title">Evaluate the vehicle's starting system</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Battery condition and state of charge</li>
+          <li style="margin-bottom: 0.2rem;">Battery cables and connections</li>
+          <li style="margin-bottom: 0.2rem;">Check for corroded battery terminals</li>
+          <li style="margin-bottom: 0.2rem;">Inspect starter relay and ignition switch function</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section class="section">
+  <h2>Starter Installation Steps</h2>
+  <ol class="step-list">
+    <li class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <div class="step-title">Disconnect negative battery cable</div>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <div class="step-title">Disconnect all cables from starter before unbolting starter from vehicle</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Do not allow starter to hang from any attached cables</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <div class="step-title">Inspect the old starter for broken/cracked nose housing, milled pinion, and mounting hole irregularities, and repair the source of the problem</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Backfire on startup, broken or missing teeth on the flywheel and worn-out mounting bolts/hardware</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">4</div>
+      <div class="step-body">
+        <div class="step-title">Ensure starter mounting surface is clean and free from debris, oil, grease, corrosion, paint, etc.</div>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">5</div>
+      <div class="step-body">
+        <div class="step-title">Transfer any mounting hardware, brackets, braces, spacers, sensors, switches, heat shields from original starter to replacement if applicable</div>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">6</div>
+      <div class="step-body">
+        <div class="step-title">Ensure starter is fully seated before tightening mounting bolts</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Torque starter mounting bolts to proper specifications</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">7</div>
+      <div class="step-body">
+        <div class="step-title">Compare replacement starter to original unit</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Verify same mounting configuration</li>
+          <li style="margin-bottom: 0.2rem;">Check pinion gear engagement and rotation</li>
+          <li style="margin-bottom: 0.2rem;">Ensure electrical connector compatibility</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">8</div>
+      <div class="step-body">
+        <div class="step-title">Inspect flywheel/flexplate ring gear for damage</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Look for worn or broken teeth</li>
+          <li style="margin-bottom: 0.2rem;">Check for proper alignment</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">9</div>
+      <div class="step-body">
+        <div class="step-title">Properly torque all mounting bolts &amp; electrical connections</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Follow manufacturer specifications</li>
+          <li style="margin-bottom: 0.2rem;">Ensure proper routing of wires to avoid heat damage</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section class="section">
+  <h2>Starter Verification</h2>
+  <ol class="step-list">
+    <li class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <div class="step-title">After installation, test cranking performance</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Reconnect battery</li>
+          <li style="margin-bottom: 0.2rem;">Check for proper engagement with ring gear</li>
+          <li style="margin-bottom: 0.2rem;">Verify starter draws correct amperage</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <div class="step-title">Verify proper operation of starting system</div>
+        <ul class="styled-list" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <li style="margin-bottom: 0.2rem;">Turn key to crank position and listen for unusual noise</li>
+        </ul>
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <div class="step-title">Road test vehicle – verify correct function and operation</div>
+      </div>
+    </li>
+  </ol>
+</section>
+
+  <a href="/" class="back-link">← Return to Search</a>
+</div>
+</body>
+</html>

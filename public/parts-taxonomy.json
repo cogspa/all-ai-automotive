@@ -1,0 +1,98 @@
+{
+  "categories": [
+    {
+      "id": "engine-electrical",
+      "label": "Engine Electrical",
+      "parts": [
+        { "id": "starter", "label": "Starters" },
+        { "id": "alternator", "label": "Alternators" },
+        { "id": "battery", "label": "Batteries" },
+        { "id": "ignition-coil", "label": "Ignition Coils" },
+        { "id": "spark-plug", "label": "Spark Plugs" },
+        { "id": "ignition-switch", "label": "Ignition Switches" }
+      ]
+    },
+    {
+      "id": "engine-mechanical",
+      "label": "Engine Mechanical",
+      "parts": [
+        { "id": "water-pump", "label": "Water Pumps" },
+        { "id": "thermostat", "label": "Thermostats" },
+        { "id": "timing-belt", "label": "Timing Belts" },
+        { "id": "timing-chain", "label": "Timing Chain Kits" },
+        { "id": "serpentine-belt", "label": "Serpentine Belts" },
+        { "id": "belt-tensioner", "label": "Belt Tensioners" }
+      ]
+    },
+    {
+      "id": "fuel-emissions",
+      "label": "Fuel & Emissions",
+      "parts": [
+        { "id": "fuel-pump", "label": "Fuel Pumps" },
+        { "id": "fuel-injector", "label": "Fuel Injectors" },
+        { "id": "oxygen-sensor", "label": "Oxygen Sensors" },
+        { "id": "mass-airflow-sensor", "label": "Mass Airflow Sensors" },
+        { "id": "egr-valve", "label": "EGR Valves" },
+        { "id": "catalytic-converter", "label": "Catalytic Converters" },
+        { "id": "evap-purge-valve", "label": "EVAP Purge Valves" }
+      ]
+    },
+    {
+      "id": "brakes",
+      "label": "Brakes",
+      "parts": [
+        { "id": "brake-pad", "label": "Brake Pads" },
+        { "id": "brake-rotor", "label": "Brake Rotors" },
+        { "id": "brake-caliper", "label": "Brake Calipers" },
+        { "id": "master-cylinder", "label": "Master Cylinders" },
+        { "id": "brake-booster", "label": "Brake Boosters" },
+        { "id": "abs-module", "label": "ABS Modules" },
+        { "id": "wheel-cylinder", "label": "Wheel Cylinders" }
+      ]
+    },
+    {
+      "id": "drivetrain",
+      "label": "Drivetrain",
+      "parts": [
+        { "id": "cv-axle", "label": "CV Axles" },
+        { "id": "cv-boot", "label": "CV Boots" },
+        { "id": "u-joint", "label": "U-Joints" },
+        { "id": "wheel-hub", "label": "Wheel Hubs" },
+        { "id": "wheel-bearing", "label": "Wheel Bearings" },
+        { "id": "transmission-mount", "label": "Transmission Mounts" }
+      ]
+    },
+    {
+      "id": "suspension-steering",
+      "label": "Suspension & Steering",
+      "parts": [
+        { "id": "strut", "label": "Struts" },
+        { "id": "shock", "label": "Shocks" },
+        { "id": "control-arm", "label": "Control Arms" },
+        { "id": "ball-joint", "label": "Ball Joints" },
+        { "id": "tie-rod", "label": "Tie Rods" },
+        { "id": "sway-bar-link", "label": "Sway Bar Links" },
+        { "id": "rack-and-pinion", "label": "Rack & Pinion" },
+        { "id": "power-steering-pump", "label": "Power Steering Pumps" }
+      ]
+    },
+    {
+      "id": "hvac",
+      "label": "HVAC",
+      "parts": [
+        { "id": "ac-compressor", "label": "A/C Compressors" },
+        { "id": "ac-condenser", "label": "A/C Condensers" },
+        { "id": "blower-motor", "label": "Blower Motors" },
+        { "id": "heater-core", "label": "Heater Cores" },
+        { "id": "cabin-air-filter", "label": "Cabin Air Filters" }
+      ]
+    },
+    {
+      "id": "general",
+      "label": "General Diagnostics",
+      "parts": [
+        { "id": "general", "label": "General Procedures" }
+      ]
+    }
+  ]
+}
