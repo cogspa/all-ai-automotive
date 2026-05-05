@@ -5,22 +5,27 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #0a0a0a;
-  --surface: #141414;
-  --surface-2: #1c1c1c;
+  --bg: #000000;
+  --bg-cream: #FDFBF7;
+  --surface: #111111;
+  --surface-2: #1a1a1a;
   --surface-3: #242424;
-  --text: #ededed;
-  --text-dim: #999;
-  --text-faint: #666;
-  --accent: #e52e2e;
-  --accent-hover: #ff3c3c;
+  --surface-cream: #F3EFE9;
+  --text: #ffffff;
+  --text-dark: #000000;
+  --text-dim: #888888;
+  --text-dim-dark: #666666;
+  --text-faint: #444444;
+  --accent: #e2b4b4; /* blush */
+  --accent-hover: #f0c8c8;
   --warn: #f5a623;
   --ok: #4caf50;
   --border: rgba(255,255,255,0.08);
+  --border-dark: rgba(0,0,0,0.1);
   --border-strong: rgba(255,255,255,0.18);
 
-  --font-display: 'Bebas Neue', sans-serif;
-  --font-body: 'Manrope', sans-serif;
+  --font-display: 'DM Sans', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
   --font-mono: 'DM Mono', 'Courier New', monospace;
 
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
@@ -167,6 +172,64 @@ button { border: none; background: none; color: inherit; font: inherit; cursor: 
 .search-section {
   padding: 8rem 3rem;
 }
+.bg-cream {
+  background: var(--bg-cream);
+  color: var(--text-dark);
+}
+.bg-cream .section-title {
+  color: var(--text-dark);
+  border-bottom: 1px solid var(--border-dark);
+}
+.bg-cream .ymm-row, 
+.bg-cream .recall-list, 
+.bg-cream .part-filter, 
+.bg-cream .search-input, 
+.bg-cream .chip, 
+.bg-cream .result-card,
+.bg-cream .qg-card {
+  background: var(--surface-cream);
+  color: var(--text-dark);
+  border-color: var(--border-dark);
+}
+.bg-cream .ymm-label, 
+.bg-cream .facet-label, 
+.bg-cream .result-count, 
+.bg-cream .card-summary, 
+.bg-cream .card-applicability, 
+.bg-cream .quick-guides-title,
+.bg-cream .recall-date {
+  color: var(--text-dim-dark);
+}
+.bg-cream .ymm-controls select {
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+  border-color: var(--border-dark);
+}
+.bg-cream .btn-ghost {
+  border-color: var(--border-dark);
+  color: var(--text-dark);
+}
+.bg-cream .btn-ghost:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--text-dark);
+}
+.bg-cream .search-input::placeholder { color: var(--text-dim-dark); }
+.bg-cream .result-card::before { background: var(--border-dark); }
+.bg-cream .card-type, .bg-cream .card-diff, .bg-cream .card-time {
+  background: rgba(0,0,0,0.05);
+  color: var(--text-dim-dark);
+}
+.bg-cream .card-id {
+  background: var(--text-dark);
+  color: var(--bg-cream);
+}
+.bg-cream .recall-item { border-bottom-color: var(--border-dark); }
+.bg-cream .recall-body { color: var(--text-dim-dark); }
+.bg-cream .recall-body strong { color: var(--text-dark); }
+.bg-cream .quick-guides-section { border-top-color: var(--border-dark); }
+.bg-cream .facets { border-bottom-color: var(--border-dark); }
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -410,9 +473,9 @@ button { border: none; background: none; color: inherit; font: inherit; cursor: 
 }
 .chip:hover { border-color: var(--accent); }
 .chip.active {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: white;
+  background: var(--text-dark);
+  border-color: var(--text-dark);
+  color: var(--bg-cream);
 }
 .result-count-wrapper { margin-left: auto; }
 .result-count {
@@ -454,8 +517,8 @@ button { border: none; background: none; color: inherit; font: inherit; cursor: 
   margin-bottom: 1rem;
 }
 .card-id {
-  background: var(--accent);
-  color: white;
+  background: var(--text-dark);
+  color: var(--bg-cream);
   padding: 0.25rem 0.6rem;
   font-family: var(--font-mono);
   font-size: 0.7rem;
