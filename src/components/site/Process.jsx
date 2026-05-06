@@ -291,7 +291,7 @@ function DiagnoseCard({ onVinResult, onRecalls, vinData, recalls }) {
   };
 
   return (
-    <Card>
+    <Card id="recalls">
       <CardHead n="02" label="step 2 / 4" title="Diagnose" />
       <p
         className="mt-4 text-[14px] leading-relaxed"
@@ -632,9 +632,10 @@ function VerifyCard({ recalls, vinData }) {
 /*  Shared building blocks                                                    */
 /* -------------------------------------------------------------------------- */
 
-function Card({ children }) {
+function Card({ id, children }) {
   return (
     <article
+      id={id}
       className="rounded-3xl p-7 md:p-8"
       style={{
         background: "var(--c-cream)",
