@@ -7,6 +7,7 @@ import Process from './components/site/Process'
 import DarkContext from './components/site/DarkContext'
 import Stats from './components/site/Stats'
 import Footer from './components/site/Footer'
+import RecallSearch from './components/site/RecallSearch'
 import RecallTicker from './components/site/RecallTicker'
 
 import AlternatorsPage from './pages/AlternatorsPage'
@@ -28,6 +29,7 @@ function HomePage() {
         <Process />
         <DarkContext />
         <Stats />
+        <RecallSearch />
         <RecallTicker />
       </main>
       <Footer />

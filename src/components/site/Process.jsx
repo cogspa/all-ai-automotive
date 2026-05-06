@@ -291,7 +291,7 @@ function DiagnoseCard({ onVinResult, onRecalls, vinData, recalls }) {
   };
 
   return (
-    <Card id="recalls">
+    <Card>
       <CardHead n="02" label="step 2 / 4" title="Diagnose" />
       <p
         className="mt-4 text-[14px] leading-relaxed"
