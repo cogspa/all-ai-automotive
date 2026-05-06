@@ -1,0 +1,44 @@
+[
+  {
+    "id": "24V267000",
+    "make": "FORD",
+    "model": "BRONCO SPORT",
+    "issue": "Loss of Drive Power from Undetected Low Battery",
+    "link": "https://www.nhtsa.gov/recalls?nhtsaId=24V267000"
+  },
+  {
+    "id": "24V276000",
+    "make": "TESLA",
+    "model": "CYBERTRUCK",
+    "issue": "Accelerator Pedal Pad May Dislodge",
+    "link": "https://www.nhtsa.gov/recalls?nhtsaId=24V276000"
+  },
+  {
+    "id": "24V273000",
+    "make": "TOYOTA",
+    "model": "PRIUS",
+    "issue": "Rear Door May Open While Driving",
+    "link": "https://www.nhtsa.gov/recalls?nhtsaId=24V273000"
+  },
+  {
+    "id": "24V264000",
+    "make": "HONDA",
+    "model": "ACCORD",
+    "issue": "Loss of Steering Control from Manufacturing Defect",
+    "link": "https://www.nhtsa.gov/recalls?nhtsaId=24V264000"
+  },
+  {
+    "id": "24V253000",
+    "make": "PORSCHE",
+    "model": "TAYCAN",
+    "issue": "High Voltage Battery May Short Circuit",
+    "link": "https://www.nhtsa.gov/recalls?nhtsaId=24V253000"
+  },
+  {
+    "id": "24V280000",
+    "make": "JEEP",
+    "model": "GRAND CHEROKEE",
+    "issue": "Steering Column May Detach",
+    "link": "https://www.nhtsa.gov/recalls?nhtsaId=24V280000"
+  }
+]
