@@ -64,7 +64,7 @@ body {
 /* Hero specific */
 .hero-wrap {
   position: relative;
-  height: 200vh;
+  height: 400vh;
 }
 .hero-sticky {
   position: sticky;
