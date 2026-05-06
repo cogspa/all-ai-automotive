@@ -1,0 +1,306 @@
+[
+  {
+    "code": "P0300",
+    "title": "Random/Multiple Cylinder Misfire Detected",
+    "system": "ignition",
+    "severity": "moderate",
+    "components": ["spark plugs", "ignition coils", "fuel injectors"],
+    "guide": null
+  },
+  {
+    "code": "P0301",
+    "title": "Cylinder 1 Misfire Detected",
+    "system": "ignition",
+    "severity": "moderate",
+    "components": ["spark plug", "ignition coil", "fuel injector"],
+    "guide": null
+  },
+  {
+    "code": "P0302",
+    "title": "Cylinder 2 Misfire Detected",
+    "system": "ignition",
+    "severity": "moderate",
+    "components": ["spark plug", "ignition coil", "fuel injector"],
+    "guide": null
+  },
+  {
+    "code": "P0303",
+    "title": "Cylinder 3 Misfire Detected",
+    "system": "ignition",
+    "severity": "moderate",
+    "components": ["spark plug", "ignition coil", "fuel injector"],
+    "guide": null
+  },
+  {
+    "code": "P0304",
+    "title": "Cylinder 4 Misfire Detected",
+    "system": "ignition",
+    "severity": "moderate",
+    "components": ["spark plug", "ignition coil", "fuel injector"],
+    "guide": null
+  },
+  {
+    "code": "P0420",
+    "title": "Catalyst System Efficiency Below Threshold (Bank 1)",
+    "system": "emissions",
+    "severity": "moderate",
+    "components": ["catalytic converter", "O2 sensors"],
+    "guide": null
+  },
+  {
+    "code": "P0430",
+    "title": "Catalyst System Efficiency Below Threshold (Bank 2)",
+    "system": "emissions",
+    "severity": "moderate",
+    "components": ["catalytic converter", "O2 sensors"],
+    "guide": null
+  },
+  {
+    "code": "P0171",
+    "title": "System Too Lean (Bank 1)",
+    "system": "fuel",
+    "severity": "moderate",
+    "components": ["MAF sensor", "vacuum leak", "fuel injectors"],
+    "guide": null
+  },
+  {
+    "code": "P0174",
+    "title": "System Too Lean (Bank 2)",
+    "system": "fuel",
+    "severity": "moderate",
+    "components": ["MAF sensor", "vacuum leak", "fuel injectors"],
+    "guide": null
+  },
+  {
+    "code": "P0101",
+    "title": "Mass Air Flow Circuit Range/Performance",
+    "system": "fuel",
+    "severity": "moderate",
+    "components": ["MAF sensor", "air filter", "intake leak"],
+    "guide": null
+  },
+  {
+    "code": "P0113",
+    "title": "Intake Air Temperature Sensor Circuit High",
+    "system": "fuel",
+    "severity": "low",
+    "components": ["IAT sensor", "wiring"],
+    "guide": null
+  },
+  {
+    "code": "P0128",
+    "title": "Coolant Thermostat Below Regulating Temperature",
+    "system": "cooling",
+    "severity": "low",
+    "components": ["thermostat", "coolant temperature sensor"],
+    "guide": null
+  },
+  {
+    "code": "P0135",
+    "title": "O2 Sensor Heater Circuit (Bank 1, Sensor 1)",
+    "system": "emissions",
+    "severity": "low",
+    "components": ["O2 sensor", "heater circuit"],
+    "guide": null
+  },
+  {
+    "code": "P0401",
+    "title": "Exhaust Gas Recirculation Flow Insufficient",
+    "system": "emissions",
+    "severity": "moderate",
+    "components": ["EGR valve", "EGR passages", "vacuum solenoid"],
+    "guide": null
+  },
+  {
+    "code": "P0440",
+    "title": "Evaporative Emission Control System Malfunction",
+    "system": "emissions",
+    "severity": "low",
+    "components": ["gas cap", "EVAP canister", "purge valve"],
+    "guide": null
+  },
+  {
+    "code": "P0455",
+    "title": "Evaporative Emission System Leak Detected (Large)",
+    "system": "emissions",
+    "severity": "low",
+    "components": ["gas cap", "EVAP hoses"],
+    "guide": null
+  },
+  {
+    "code": "P0500",
+    "title": "Vehicle Speed Sensor Malfunction",
+    "system": "drivetrain",
+    "severity": "moderate",
+    "components": ["VSS", "wheel speed sensor", "wiring"],
+    "guide": null
+  },
+  {
+    "code": "P0562",
+    "title": "System Voltage Low",
+    "system": "charging",
+    "severity": "high",
+    "components": ["alternator", "battery", "wiring"],
+    "guide": "/alternators"
+  },
+  {
+    "code": "P0563",
+    "title": "System Voltage High",
+    "system": "charging",
+    "severity": "high",
+    "components": ["alternator", "voltage regulator"],
+    "guide": "/alternators"
+  },
+  {
+    "code": "P0615",
+    "title": "Starter Relay Circuit Malfunction",
+    "system": "starting",
+    "severity": "high",
+    "components": ["starter relay", "starter motor", "PCM"],
+    "guide": "/starters"
+  },
+  {
+    "code": "P0616",
+    "title": "Starter Relay Circuit Low",
+    "system": "starting",
+    "severity": "high",
+    "components": ["starter relay", "wiring"],
+    "guide": "/starters"
+  },
+  {
+    "code": "P0617",
+    "title": "Starter Relay Circuit High",
+    "system": "starting",
+    "severity": "moderate",
+    "components": ["starter relay", "wiring"],
+    "guide": "/starters"
+  },
+  {
+    "code": "P0620",
+    "title": "Generator Control Circuit Malfunction",
+    "system": "charging",
+    "severity": "high",
+    "components": ["alternator", "PCM", "wiring"],
+    "guide": "/alternators"
+  },
+  {
+    "code": "P0621",
+    "title": "Generator Lamp Control Circuit",
+    "system": "charging",
+    "severity": "moderate",
+    "components": ["alternator", "instrument cluster"],
+    "guide": "/alternators"
+  },
+  {
+    "code": "P0622",
+    "title": "Generator Field Control Circuit",
+    "system": "charging",
+    "severity": "moderate",
+    "components": ["alternator", "PCM"],
+    "guide": "/alternators"
+  },
+  {
+    "code": "P0700",
+    "title": "Transmission Control System Malfunction",
+    "system": "drivetrain",
+    "severity": "high",
+    "components": ["TCM", "transmission", "valve body"],
+    "guide": null
+  },
+  {
+    "code": "C0035",
+    "title": "Left Front Wheel Speed Sensor Circuit",
+    "system": "abs",
+    "severity": "high",
+    "components": ["wheel speed sensor", "wheel hub bearing", "wiring"],
+    "guide": "/wheel-hubs"
+  },
+  {
+    "code": "C0040",
+    "title": "Right Front Wheel Speed Sensor Circuit",
+    "system": "abs",
+    "severity": "high",
+    "components": ["wheel speed sensor", "wheel hub bearing", "wiring"],
+    "guide": "/wheel-hubs"
+  },
+  {
+    "code": "C0045",
+    "title": "Left Rear Wheel Speed Sensor Circuit",
+    "system": "abs",
+    "severity": "high",
+    "components": ["wheel speed sensor", "wheel hub bearing", "wiring"],
+    "guide": "/wheel-hubs"
+  },
+  {
+    "code": "C0050",
+    "title": "Right Rear Wheel Speed Sensor Circuit",
+    "system": "abs",
+    "severity": "high",
+    "components": ["wheel speed sensor", "wheel hub bearing", "wiring"],
+    "guide": "/wheel-hubs"
+  },
+  {
+    "code": "C0110",
+    "title": "ABS Pump Motor Circuit Malfunction",
+    "system": "abs",
+    "severity": "high",
+    "components": ["ABS pump motor", "ABS module"],
+    "guide": null
+  },
+  {
+    "code": "C0265",
+    "title": "EBCM Relay Circuit",
+    "system": "abs",
+    "severity": "high",
+    "components": ["EBCM", "ABS relay"],
+    "guide": null
+  },
+  {
+    "code": "C1201",
+    "title": "ABS System Malfunction",
+    "system": "abs",
+    "severity": "high",
+    "components": ["ABS module", "wheel speed sensors"],
+    "guide": null
+  },
+  {
+    "code": "C1214",
+    "title": "Brake System Indicator Circuit",
+    "system": "brakes",
+    "severity": "high",
+    "components": ["brake fluid level sensor", "master cylinder", "brake lines"],
+    "guide": "/master-cylinders"
+  },
+  {
+    "code": "U0073",
+    "title": "Control Module Communication Bus A Off",
+    "system": "network",
+    "severity": "high",
+    "components": ["CAN bus", "modules", "wiring"],
+    "guide": null
+  },
+  {
+    "code": "U0100",
+    "title": "Lost Communication With ECM/PCM",
+    "system": "network",
+    "severity": "high",
+    "components": ["ECM", "wiring", "CAN bus"],
+    "guide": null
+  },
+  {
+    "code": "U0121",
+    "title": "Lost Communication With ABS Module",
+    "system": "network",
+    "severity": "high",
+    "components": ["ABS module", "CAN bus"],
+    "guide": null
+  },
+  {
+    "code": "B1000",
+    "title": "Body Control Module Malfunction",
+    "system": "body",
+    "severity": "high",
+    "components": ["BCM"],
+    "guide": null
+  }
+]

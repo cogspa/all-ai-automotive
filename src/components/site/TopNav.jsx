@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Plus, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const NAV = [
   { label: "Quick Guides", href: "/#guides" },
@@ -71,15 +72,15 @@ export default function TopNav() {
           ))}
         </nav>
 
-        <a
-          href="#search"
+        <Link
+          to="/search"
           className="pointer-events-auto pill pill-light"
         >
           Start Search
           <span className="flex items-center justify-center h-5 w-5 rounded-full bg-[#0a0a0a] text-white">
             <ArrowRight className="h-3 w-3" strokeWidth={2.2} />
           </span>
-        </a>
+        </Link>
       </div>
     </header>
   );

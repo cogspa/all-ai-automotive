@@ -15,6 +15,7 @@ import CalipersPage from './pages/CalipersPage'
 import MasterCylindersPage from './pages/MasterCylindersPage'
 import StartersPage from './pages/StartersPage'
 import WheelHubsPage from './pages/WheelHubsPage'
+import SearchPage from './pages/SearchPage'
 
 function HomePage() {
   return (
@@ -55,6 +56,7 @@ function App() {
       <Route path="/brake-pads-rotors" element={<BrakePadsRotorsPage />} />
       <Route path="/boosters" element={<BoostersPage />} />
       <Route path="/wheel-hubs" element={<WheelHubsPage />} />
+      <Route path="/search" element={<SearchPage />} />
     </Routes>
     </>
   )
