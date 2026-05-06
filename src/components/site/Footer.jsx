@@ -53,7 +53,7 @@ export default function Footer() {
             className="mt-6 max-w-[320px] text-[14px] font-normal"
             style={{ color: "rgba(255,255,255,0.55)" }}
           >
-            The knowledge base for modern repair shops. Accurate, daily — New York · Detroit.
+            The knowledge base for modern repair shops. Accurate, daily — Los Angeles · Detroit.
           </p>
         </div>
 
