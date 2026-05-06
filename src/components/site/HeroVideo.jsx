@@ -43,7 +43,7 @@ const CUE_POINTS = [
     titleLead: "Make repairs that ",
     titleAccent: "matter",
     titleTail: ", on time.",
-    sub: "Thousands of mechanics already shipping their best quarters with ALL AI AUTOMOTIVE.",
+    sub: "For the drivers who want a clear answer, the mechanics who want the right fix, and the DIYers learning their way through. One source of truth — available now.",
   },
 ];
 
@@ -194,8 +194,26 @@ export default function HeroVideo() {
               </div>
             </div>
 
-            <aside className="col-span-12 md:col-span-5 lg:col-span-5 hidden md:flex justify-end">
-              <div className="self-end mb-2 w-full max-w-[340px]">
+            <aside className="col-span-12 md:col-span-5 lg:col-span-5 hidden md:flex flex-col justify-between items-end">
+              {/* TOP: persistent mission anchor */}
+              <div className="w-full max-w-[340px] mt-2">
+                <div className="rounded-2xl p-5" style={{ background: "rgba(20, 16, 16, 0.55)", border: "1px solid rgba(255,255,255,0.10)", backdropFilter: "blur(18px)" }}>
+                  <div className="flex items-center justify-between">
+                    <span className="font-mono-cap text-white/55">The mission</span>
+                    <span className="font-mono-cap text-white/40">Sourced · daily</span>
+                  </div>
+                  <p className="mt-4 text-[16px] text-white leading-snug" style={{ letterSpacing: "-0.005em" }}>
+                    Two-thirds of drivers don't trust their mechanic. We're building the source of truth that fixes both sides of the counter.
+                  </p>
+                  <div className="mt-4 pt-4 flex items-center gap-3" style={{ borderTop: "1px solid rgba(255,255,255,0.08)" }}>
+                    <span className="font-mono-cap text-white/40">For</span>
+                    <span className="font-mono-cap text-white/80">Drivers · Mechanics · DIYers</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* BOTTOM: existing knowledge hub card */}
+              <div className="w-full max-w-[340px] mb-2">
                 <div className="rounded-2xl p-5" style={{ background: "rgba(20, 16, 16, 0.55)", border: "1px solid rgba(255,255,255,0.10)", backdropFilter: "blur(18px)" }}>
                   <div className="flex items-center justify-between">
                     <span className="font-mono-cap text-white/55">Knowledge Hub</span>
