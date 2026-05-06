@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback } from "react";
 import { ArrowDown } from "lucide-react";
 
-const VIDEO_SRC_MP4 = "/headspin.mp4";
+const VIDEO_SRC_MP4 = "/headspin.mp4?v=2";
 const VIDEO_SRC_WEBM = "/headspin.webm";
 
 const CUE_POINTS = [
