@@ -19,7 +19,7 @@ import SearchPage from './pages/SearchPage'
 
 function HomePage() {
   return (
-    <div className="min-h-screen bg-black font-sans text-white overflow-x-hidden selection:bg-[#ff8a4a]/30 selection:text-white">
+    <div className="min-h-screen bg-black font-sans text-white selection:bg-[#ff8a4a]/30 selection:text-white">
       <TopNav />
       <main>
         <HeroVideo />

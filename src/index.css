@@ -23,6 +23,7 @@ body {
   color: var(--c-cream);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 .font-display {
